@@ -1,0 +1,2 @@
+Original number of waters: 	37274
+Waters saved after filtering:	29910

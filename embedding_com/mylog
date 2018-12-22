@@ -1,0 +1,3174 @@
+GROMACS:    gmx mdrun, VERSION 5.0.6
+
+GROMACS is written by:
+Emile Apol         Rossen Apostolov   Herman J.C. Berendsen Par Bjelkmar       
+Aldert van Buuren  Rudi van Drunen    Anton Feenstra     Sebastian Fritsch  
+Gerrit Groenhof    Christoph Junghans Peter Kasson       Carsten Kutzner    
+Per Larsson        Justin A. Lemkul   Magnus Lundborg    Pieter Meulenhoff  
+Erik Marklund      Teemu Murtola      Szilard Pall       Sander Pronk       
+Roland Schulz      Alexey Shvetsov    Michael Shirts     Alfons Sijbers     
+Peter Tieleman     Christian Wennberg Maarten Wolf       
+and the project leaders:
+Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2014, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, VERSION 5.0.6
+Executable:   /cm/shared/apps/Gromacs-5.0.6/install_gcc/bin/gmx_mpi
+Library dir:  /cm/shared/apps/Gromacs-5.0.6/install_gcc/share/gromacs/top
+Command line:
+  mdrun_mpi -s output/refined1_0001_INPUT_0002_ignorechain/complex/sem/em/sem_PR-POPC_SC+BB_Protein_Cbonds.tpr -deffnm output/refined1_0001_INPUT_0002_ignorechain/complex/sem/em/sem_PR-POPC_SC+BB_Protein_Cbonds
+
+
+Back Off! I just backed up output/refined1_0001_INPUT_0002_ignorechain/complex/sem/em/sem_PR-POPC_SC+BB_Protein_Cbonds.log to output/refined1_0001_INPUT_0002_ignorechain/complex/sem/em/#sem_PR-POPC_SC+BB_Protein_Cbonds.log.1#
+
+Number of hardware threads detected (40) does not match the number reported by OpenMP (2).
+Consider setting the launch configuration manually!
+Reading file output/refined1_0001_INPUT_0002_ignorechain/complex/sem/em/sem_PR-POPC_SC+BB_Protein_Cbonds.tpr, VERSION 5.0.6 (single precision)
+
+Will use 15 particle-particle and 5 PME only ranks
+This is a guess, check the performance at the end of the log file
+Using 20 MPI processes
+Using 2 OpenMP threads per MPI process
+Compiled SIMD instructions: AVX_256 (Gromacs could use AVX2_256 on this machine, which is better)
+
+Non-default thread affinity set probably by the OpenMP library,
+disabling internal thread affinity
+
+Back Off! I just backed up output/refined1_0001_INPUT_0002_ignorechain/complex/sem/em/sem_PR-POPC_SC+BB_Protein_Cbonds.trr to output/refined1_0001_INPUT_0002_ignorechain/complex/sem/em/#sem_PR-POPC_SC+BB_Protein_Cbonds.trr.1#
+
+Back Off! I just backed up output/refined1_0001_INPUT_0002_ignorechain/complex/sem/em/sem_PR-POPC_SC+BB_Protein_Cbonds.edr to output/refined1_0001_INPUT_0002_ignorechain/complex/sem/em/#sem_PR-POPC_SC+BB_Protein_Cbonds.edr.1#
+
+Steepest Descents:
+   Tolerance (Fmax)   =  2.00000e+02
+   Number of steps    =        20000
+
+step 13: Water molecule starting at atom 93880 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+
+Step 14, time 0.014 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002465, max 0.070407 (between atoms 29417 and 29416)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  29418  29417   53.3    0.1531   0.1623      0.1530
+  29419  29418   48.6    0.1433   0.1511      0.1430
+
+step 14: Water molecule starting at atom 93880 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+
+step 15: Water molecule starting at atom 93880 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+
+Step 16, time 0.016 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000178, max 0.007292 (between atoms 11320 and 11317)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  11320  11317   34.0    0.1470   0.1481      0.1470
+
+Step 16, time 0.016 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.003253, max 0.098530 (between atoms 7992 and 7989)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 16, time 0.016 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000407, max 0.013616 (between atoms 16272 and 16271)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   7992   7989   89.8    0.1470   0.1615      0.1470
+  16272  16271   33.5    0.1228   0.1247      0.1230
+
+step 16: Water molecule starting at atom 93196 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+
+Step 20, time 0.02 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000372, max 0.012670 (between atoms 16220 and 16219)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16220  16219   49.4    0.1230   0.1214      0.1230
+
+Step 21, time 0.021 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001508, max 0.033266 (between atoms 16218 and 16217)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+step 21: Water molecule starting at atom 55057 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+
+step 21: Water molecule starting at atom 93421 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+
+step 21: Water molecule starting at atom 73402 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+
+step 21: Water molecule starting at atom 58156 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+
+step 21: Water molecule starting at atom 60478 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+
+step 21: Water molecule starting at atom 90139 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+
+step 21: Water molecule starting at atom 34504 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+
+step 21: Water molecule starting at atom 95683 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+
+Step 25, time 0.025 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001689, max 0.045951 (between atoms 16263 and 16262)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16212  16215   52.2    0.1610   0.1765      0.1610
+  16215  16216   38.0    0.1430   0.1942      0.1430
+  16216  16217   67.2    0.1530   0.1931      0.1530
+  16217  16218   88.2    0.1435   0.1401      0.1435
+
+Step 25, time 0.025 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.014666, max 0.420394 (between atoms 16216 and 16215)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16215  16212   52.0    0.1610   0.1782      0.1610
+  16216  16215   40.0    0.1430   0.2031      0.1430
+  16217  16216   63.9    0.1530   0.1966      0.1530
+  16218  16217   82.8    0.1435   0.1396      0.1435
+  16236  16217   35.7    0.1530   0.1177      0.1530
+  16219  16218   31.9    0.1360   0.1505      0.1360
+
+Step 25, time 0.025 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.005478, max 0.175171 (between atoms 16272 and 16271)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16217  16236   38.1    0.1530   0.1208      0.1530
+  16266  16264   36.3    0.1480   0.1501      0.1480
+  16271  16272   89.7    0.1230   0.1445      0.1230
+
+Step 25, time 0.025 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001302, max 0.047585 (between atoms 29394 and 29393)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 25, time 0.025 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000914, max 0.030735 (between atoms 19173 and 19172)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16264  16266   36.3    0.1480   0.1501      0.1480
+  16272  16271   89.7    0.1230   0.1445      0.1230
+  17331  17330   40.2    0.1230   0.1223      0.1230
+
+step 25: Water molecule starting at atom 93361 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+  29393  29392   32.6    0.1430   0.1414      0.1430
+
+step 25: Water molecule starting at atom 44482 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+
+step 25: Water molecule starting at atom 71911 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+
+Step 25, time 0.025 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001046, max 0.011290 (between atoms 3674 and 3672)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+step 25: Water molecule starting at atom 58747 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+   3679   3678   37.4    0.1010   0.1004      0.1010
+   3680   3678   33.3    0.1010   0.1002      0.1010
+
+step 25: Water molecule starting at atom 43066 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+
+step 25: Water molecule starting at atom 37129 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+
+step 25: Water molecule starting at atom 100330 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+
+step 25: Water molecule starting at atom 33679 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+
+Step 26, time 0.026 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002334, max 0.085049 (between atoms 16268 and 16267)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16269  16268   31.5    0.1559   0.1603      0.1530
+  16268  16267   43.0    0.1383   0.1552      0.1430
+
+Step 27, time 0.027 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001783, max 0.057377 (between atoms 16218 and 16217)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16218  16217   37.8    0.1463   0.1517      0.1435
+
+Step 27, time 0.027 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000674, max 0.021551 (between atoms 29417 and 29416)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 27, time 0.027 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000380, max 0.020246 (between atoms 29413 and 29416)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  29413  29416   54.3    0.1470   0.1500      0.1470
+  29413  29416   54.3    0.1470   0.1500      0.1470
+
+Step 28, time 0.028 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.014841, max 0.633800 (between atoms 16265 and 16264)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16265  16264   89.7    0.1493   0.2418      0.1480
+
+Step 28, time 0.028 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002864, max 0.091386 (between atoms 29392 and 29373)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  29392  29373   37.0    0.1535   0.1670      0.1530
+  29393  29392   42.7    0.1431   0.1550      0.1430
+Wrote pdb files with previous and current coordinates
+
+step 30: Water molecule starting at atom 54424 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+
+step 31: Water molecule starting at atom 54424 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+
+Step 33, time 0.033 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000236, max 0.009416 (between atoms 16259 and 16260)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 33, time 0.033 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000584, max 0.022205 (between atoms 16261 and 16260)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16257  16260   44.4    0.1470   0.1481      0.1470
+  16257  16260   44.4    0.1470   0.1481      0.1470
+
+step 33: Water molecule starting at atom 63760 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+
+Step 34, time 0.034 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.012004, max 0.393855 (between atoms 16268 and 16267)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16257  16260   33.5    0.1481   0.1477      0.1470
+  16264  16263   34.8    0.1609   0.1769      0.1610
+  16265  16264   72.1    0.1484   0.1878      0.1480
+  16268  16267   87.4    0.1431   0.0867      0.1430
+  16269  16270   34.2    0.1435   0.1705      0.1435
+  16269  16288   35.3    0.1530   0.1859      0.1530
+
+Step 34, time 0.034 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001596, max 0.038470 (between atoms 16217 and 16216)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 34, time 0.034 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000315, max 0.013550 (between atoms 16258 and 16260)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 34, time 0.034 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002469, max 0.076540 (between atoms 29394 and 29393)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16263  16264   30.4    0.1609   0.1552      0.1610
+  16257  16260   33.6    0.1481   0.1473      0.1470
+
+Step 34, time 0.034 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.007554, max 0.214966 (between atoms 16288 and 16269)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  29392  29373   32.4    0.1530   0.1479      0.1530
+  29393  29392   41.9    0.1430   0.1415      0.1430
+  29394  29393   35.5    0.1360   0.1464      0.1360
+  16263  16264   34.8    0.1609   0.1769      0.1610
+  16264  16265   72.1    0.1484   0.1878      0.1480
+  16267  16268   87.4    0.1431   0.0867      0.1430
+  16257  16260   33.5    0.1481   0.1477      0.1470
+  16270  16269   34.2    0.1435   0.1705      0.1435
+  16288  16269   35.3    0.1530   0.1859      0.1530
+
+Step 35, time 0.035 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001750, max 0.082196 (between atoms 16269 and 16270)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 35, time 0.035 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001680, max 0.044185 (between atoms 28433 and 28432)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 35, time 0.035 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002995, max 0.086214 (between atoms 16268 and 16267)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16269  16270   32.0    0.1705   0.1553      0.1435
+  16269  16288   35.3    0.1859   0.1564      0.1530
+  16267  16268   60.9    0.0867   0.1553      0.1430
+  16269  16270   32.0    0.1705   0.1553      0.1435
+  16269  16288   35.3    0.1859   0.1564      0.1530
+  16290  16291   32.4    0.1232   0.1235      0.1230
+  16268  16267   60.9    0.0867   0.1553      0.1430
+  16291  16290   32.4    0.1232   0.1235      0.1230
+  28434  28432   63.3    0.1481   0.1528      0.1480
+
+Step 35, time 0.035 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002969, max 0.074347 (between atoms 29373 and 29372)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  29374  29373   50.7    0.1526   0.1496      0.1435
+  29392  29373   38.6    0.1479   0.1642      0.1530
+  29393  29392   33.6    0.1415   0.1531      0.1430
+
+Step 35, time 0.035 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001584, max 0.032752 (between atoms 3025 and 3022)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   3577   3576   33.4    0.1254   0.1284      0.1250
+   3578   3576   34.9    0.1254   0.1284      0.1250
+   3025   3022   30.8    0.1376   0.1415      0.1370
+
+Step 37, time 0.037 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002486, max 0.132966 (between atoms 27971 and 27972)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 37, time 0.037 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.033036, max 0.791630 (between atoms 28434 and 28432)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 37, time 0.037 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.014352, max 0.478056 (between atoms 16291 and 16290)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16266  16264   41.3    0.1480   0.1488      0.1480
+  16268  16269   67.8    0.1530   0.0968      0.1530
+  16269  16270   88.4    0.1435   0.2227      0.1435
+  27970  27969   67.2    0.1435   0.1745      0.1435
+  27971  27970   57.4    0.1360   0.1765      0.1360
+  27971  27972   56.5    0.1230   0.1066      0.1230
+
+Step 37, time 0.037 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.003065, max 0.087031 (between atoms 11300 and 11298)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  11299  11298   73.7    0.1230   0.1276      0.1230
+  27970  27971   57.4    0.1360   0.1765      0.1360
+  27969  27970   67.2    0.1435   0.1745      0.1435
+  27971  27972   56.5    0.1230   0.1066      0.1230
+  13246  13247   79.2    0.1430   0.1169      0.1430
+  13245  13246   89.8    0.1530   0.1732      0.1530
+  13244  13245   55.8    0.1470   0.2195      0.1470
+  28430  28431   57.9    0.1430   0.1779      0.1430
+  16270  16271   81.7    0.1360   0.2611      0.1360
+  16271  16273   38.9    0.1530   0.1822      0.1530
+  16269  16288   56.7    0.1530   0.1331      0.1530
+  16288  16289   51.8    0.1430   0.2186      0.1430
+  16291  16290   89.5    0.1230   0.1818      0.1230
+  16292  16290   39.8    0.1530   0.1814      0.1530
+  13246  13245   89.8    0.1530   0.1756      0.1530
+  28436  28435   64.0    0.1430   0.2554      0.1430
+  28431  28430   57.9    0.1430   0.1779      0.1430
+  28432  28431   32.3    0.1610   0.1681      0.1610
+  28433  28432   89.8    0.1480   0.1181      0.1480
+  28434  28432   89.1    0.1480   0.2652      0.1480
+  28435  28432   87.0    0.1610   0.2057      0.1610
+  13245  13244   55.5    0.1470   0.2188      0.1470
+
+Step 37, time 0.037 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.005789, max 0.123936 (between atoms 10031 and 10032)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 37, time 0.037 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.044999, max 0.886257 (between atoms 1688 and 1686)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1182   1184   31.9    0.1335   0.1380      0.1335
+
+Step 37, time 0.037 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.030085, max 0.921164 (between atoms 16271 and 16270)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  28431  28432   32.4    0.1610   0.1681      0.1610
+  28432  28433   89.8    0.1480   0.1182      0.1480
+  28432  28434   89.1    0.1480   0.2652      0.1480
+  28432  28435   87.1    0.1610   0.2051      0.1610
+  28435  28436   63.2    0.1430   0.2465      0.1430
+  10446  10445   36.9    0.1435   0.1544      0.1435
+  10445  10464   38.1    0.1530   0.1634      0.1530
+  10445  10444   31.6    0.1530   0.1616      0.1530
+  10444  10443   40.9    0.1430   0.1322      0.1430
+   8107   8108   31.0    0.1230   0.1247      0.1230
+  21470  21469   43.9    0.1435   0.1552      0.1435
+  13247  13246   79.2    0.1430   0.1169      0.1430
+  10031  10032   42.7    0.1230   0.1382      0.1230
+
+Step 37, time 0.037 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.042272, max 0.897849 (between atoms 680 and 676)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+     25     26   35.0    0.1229   0.1289      0.1229
+     11     13   35.9    0.1335   0.1404      0.1335
+
+Step 37, time 0.037 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.041280, max 1.569867 (between atoms 29374 and 29373)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   2763   2762   43.2    0.1340   0.1488      0.1340
+   2766   2762   41.8    0.1340   0.1487      0.1340
+   2761   2760   32.0    0.1010   0.1104      0.1010
+   2762   2760   50.5    0.1340   0.1492      0.1340
+   2793   2794   33.2    0.1229   0.1277      0.1229
+   2793   2795   37.1    0.1335   0.1406      0.1335
+   2630   2632   37.9    0.1449   0.1876      0.1449
+   2628   2630   32.9    0.1335   0.1316      0.1335
+   2609   2611   30.2    0.1449   0.1580      0.1449
+   2628   2629   49.0    0.1229   0.1406      0.1229
+   2632   2633   42.5    0.1090   0.1406      0.1090
+   2632   2647   86.2    0.1522   0.2358      0.1522
+   2647   2648   87.7    0.1229   0.2380      0.1229
+  21472  21471   33.2    0.1230   0.1174      0.1230
+  21471  21470   40.8    0.1360   0.1499      0.1360
+  10029  10028   31.1    0.1530   0.1685      0.1530
+  10030  10029   40.3    0.1435   0.1354      0.1435
+  10031  10030   34.5    0.1360   0.1247      0.1360
+   2762   2763   43.2    0.1340   0.1488      0.1340
+   2760   2762   50.5    0.1340   0.1492      0.1340
+   2760   2761   32.0    0.1010   0.1104      0.1010
+   2762   2766   41.8    0.1340   0.1487      0.1340
+     25     27   37.7    0.1335   0.1432      0.1335
+     44     46   34.0    0.1335   0.1357      0.1335
+     48     60   66.8    0.1522   0.1576      0.1522
+   2647   2649   86.7    0.1335   0.2686      0.1335
+   2649   2650   56.1    0.1010   0.1691      0.1010
+   2649   2651   46.3    0.1449   0.2045      0.1449
+   2635   2634   33.0    0.1090   0.1308      0.1090
+   2651   2652   30.8    0.1090   0.1253      0.1090
+   2669   2670   32.3    0.1229   0.1309      0.1229
+   2671   2672   37.0    0.1010   0.1031      0.1010
+  11298  11299   73.7    0.1230   0.1277      0.1230
+    677    676   85.9    0.1340   0.2416      0.1340
+    680    676   86.3    0.1340   0.2543      0.1340
+    678    677   50.0    0.1010   0.1509      0.1010
+    679    677   51.2    0.1010   0.1549      0.1010
+   2822   2824   55.2    0.1340   0.1547      0.1340
+   2822   2823   31.1    0.1010   0.1136      0.1010
+   2825   2824   50.3    0.1340   0.1547      0.1340
+   2828   2824   49.8    0.1340   0.1542      0.1340
+   2745   2747   39.9    0.1335   0.1406      0.1335
+   2733   2745   32.0    0.1522   0.1576      0.1522
+   2745   2746   39.0    0.1229   0.1273      0.1229
+
+step 37: Water molecule starting at atom 36133 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+   2583   2585   34.7    0.1335   0.1437      0.1335
+   2587   2607   42.1    0.1522   0.1630      0.1522
+   2607   2608   53.4    0.1229   0.1375      0.1229
+   2607   2609   59.4    0.1335   0.1566      0.1335
+   2509   2524   31.6    0.1522   0.1587      0.1522
+   2524   2526   43.0    0.1335   0.1453      0.1335
+   2524   2525   41.7    0.1229   0.1274      0.1229
+   2538   2539   38.1    0.1229   0.1297      0.1229
+  16264  16266   41.3    0.1480   0.1488      0.1480
+  16273  16271   39.0    0.1530   0.1824      0.1530
+  16271  16270   81.7    0.1360   0.2613      0.1360
+  16289  16288   51.8    0.1430   0.2186      0.1430
+  16268  16269   67.8    0.1530   0.0968      0.1530
+  16270  16269   88.4    0.1435   0.2227      0.1435
+  16288  16269   56.7    0.1530   0.1331      0.1530
+  16290  16291   89.5    0.1230   0.1818      0.1230
+  16290  16292   39.8    0.1530   0.1814      0.1530
+  10445  10446   36.9    0.1435   0.1544      0.1435
+  10444  10445   31.6    0.1530   0.1616      0.1530
+  10443  10444   40.9    0.1430   0.1322      0.1430
+  10445  10464   38.1    0.1530   0.1634      0.1530
+     62     64   41.0    0.1449   0.1914      0.1449
+     60     62   87.5    0.1335   0.2144      0.1335
+     62     63   48.4    0.1010   0.1501      0.1010
+
+Step 37, time 0.037 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.056996, max 1.047997 (between atoms 1038 and 1036)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+    674    675   53.4    0.1010   0.1492      0.1010
+    676    674   85.8    0.1340   0.2500      0.1340
+    674    671   39.4    0.1463   0.1883      0.1463
+  29393  29394   31.1    0.1361   0.1372      0.1360
+    613    612   35.2    0.1010   0.1145      0.1010
+    614    612   59.6    0.1340   0.1566      0.1340
+   2538   2540   39.1    0.1335   0.1434      0.1335
+   3222   3220   41.7    0.1250   0.1282      0.1250
+   1734   1733   48.7    0.1229   0.1349      0.1229
+   1735   1733   51.8    0.1335   0.1451      0.1335
+   2480   2493   41.1    0.1522   0.1603      0.1522
+   2493   2494   48.1    0.1229   0.1345      0.1229
+   2493   2495   49.1    0.1335   0.1469      0.1335
+   3169   3167   31.5    0.1449   0.1800      0.1449
+   3170   3169   34.0    0.1090   0.1303      0.1090
+   8108   8107   30.9    0.1230   0.1246      0.1230
+     11     13   35.9    0.1335   0.1404      0.1335
+     77     78   34.6    0.1340   0.1418      0.1340
+     77     81   33.2    0.1340   0.1421      0.1340
+     75     77   37.3    0.1340   0.1422      0.1340
+     48     60   71.9    0.1522   0.2157      0.1522
+     60     61   88.1    0.1229   0.1805      0.1229
+     25     26   35.0    0.1229   0.1289      0.1229
+     25     27   37.7    0.1335   0.1432      0.1335
+  11298  11299   73.7    0.1230   0.1270      0.1230
+  10028  10029   31.1    0.1530   0.1684      0.1530
+  10029  10030   40.3    0.1435   0.1354      0.1435
+    680    681   55.6    0.1010   0.1601      0.1010
+    682    680   57.4    0.1010   0.1691      0.1010
+    597    599   31.8    0.1335   0.1374      0.1335
+    645    646   36.8    0.1229   0.1291      0.1229
+    645    647   40.0    0.1335   0.1420      0.1335
+   2093   2095   30.0    0.1449   0.1773      0.1449
+   2091   2093   31.7    0.1335   0.1381      0.1335
+   2095   2096   31.1    0.1090   0.1266      0.1090
+   2095   2110   65.4    0.1522   0.1936      0.1522
+  29372  29371   45.3    0.1431   0.1919      0.1430
+  29373  29372   49.0    0.1531   0.2154      0.1530
+  29374  29373   89.3    0.1436   0.3688      0.1435
+  29392  29373   87.8    0.1530   0.1710      0.1530
+  29375  29374   88.8    0.1361   0.2055      0.1360
+  29393  29392   86.0    0.1431   0.1658      0.1430
+  29394  29393   49.0    0.1361   0.1853      0.1360
+   2227   2226   31.6    0.1010   0.1154      0.1010
+   2230   2229   30.9    0.1010   0.1132      0.1010
+   2231   2229   30.0    0.1010   0.1145      0.1010
+   3184   3169   67.6    0.1522   0.1886      0.1522
+   3144   3146   36.6    0.1335   0.1398      0.1335
+   3144   3145   37.4    0.1229   0.1272      0.1229
+   3185   3184   87.0    0.1229   0.1776      0.1229
+   3186   3184   85.8    0.1335   0.1985      0.1335
+   3209   3208   32.5    0.1010   0.1034      0.1010
+   1733   1723   35.5    0.1522   0.1619      0.1522
+   3126   3127   34.1    0.1090   0.1073      0.1090
+   3187   3186   53.3    0.1010   0.1606      0.1010
+     44     46   33.9    0.1335   0.1358      0.1335
+     46     48   38.1    0.1449   0.1863      0.1449
+  10030  10031   34.5    0.1360   0.1247      0.1360
+  10031  10032   42.7    0.1230   0.1382      0.1230
+   3837   3836   37.3    0.1340   0.1430      0.1340
+   3840   3836   35.3    0.1340   0.1427      0.1340
+   3836   3834   42.7    0.1340   0.1440      0.1340
+   3899   3898   46.4    0.1340   0.1503      0.1340
+   3902   3898   41.7    0.1340   0.1453      0.1340
+   2110   2111   87.1    0.1229   0.1756      0.1229
+   2110   2112   86.4    0.1335   0.1981      0.1335
+   2112   2113   56.3    0.1010   0.1632      0.1010
+   2112   2114   42.0    0.1449   0.1896      0.1449
+    615    614   50.4    0.1340   0.1579      0.1340
+
+Step 37, time 0.037 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.110936, max 1.915375 (between atoms 3578 and 3576)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+     48     49   34.0    0.1090   0.1296      0.1090
+     48     60   69.0    0.1522   0.2031      0.1522
+     60     61   87.5    0.1229   0.1837      0.1229
+     60     62   86.9    0.1335   0.2172      0.1335
+     62     63   48.6    0.1010   0.1517      0.1010
+     62     64   41.1    0.1449   0.1928      0.1449
+     46     48   32.1    0.1449   0.1797      0.1449
+     44     46   32.3    0.1335   0.1362      0.1335
+   2208   2210   38.8    0.1335   0.1345      0.1335
+   2226   2225   53.5    0.1340   0.1609      0.1340
+   2229   2225   53.1    0.1340   0.1617      0.1340
+   2224   2223   35.4    0.1010   0.1133      0.1010
+   2225   2223   62.0    0.1340   0.1568      0.1340
+   3188   3186   38.6    0.1449   0.1909      0.1449
+   3202   3204   32.7    0.1010   0.1031      0.1010
+   3202   3205   33.6    0.1010   0.1031      0.1010
+   2344   2345   89.7    0.1090   0.1742      0.1090
+   2352   2353   45.3    0.1229   0.1265      0.1229
+   1656   1655   32.4    0.1229   0.1277      0.1229
+   1657   1655   36.2    0.1335   0.1387      0.1335
+   3042   3044   36.7    0.1335   0.1342      0.1335
+   3061   3062   34.4    0.1229   0.1249      0.1229
+   3300   3299   40.3    0.1340   0.1461      0.1340
+   3303   3299   40.0    0.1340   0.1469      0.1340
+   3299   3297   44.3    0.1340   0.1437      0.1340
+   3898   3896   48.8    0.1340   0.1480      0.1340
+   3868   3867   35.5    0.1229   0.1284      0.1229
+    618    614   47.0    0.1340   0.1517      0.1340
+    616    615   32.5    0.1010   0.1157      0.1010
+    564    562   30.4    0.1335   0.1382      0.1335
+     25     27   37.7    0.1335   0.1430      0.1335
+     11     13   36.1    0.1335   0.1371      0.1335
+     25     26   35.0    0.1229   0.1286      0.1229
+    108    110   53.7    0.1335   0.1529      0.1335
+     88    108   41.9    0.1522   0.1635      0.1522
+    108    109   49.8    0.1229   0.1367      0.1229
+   1573   1558   44.6    0.1522   0.1664      0.1522
+   1573   1574   59.5    0.1229   0.1361      0.1229
+   1575   1573   59.4    0.1335   0.1530      0.1335
+   3061   3063   37.9    0.1335   0.1363      0.1335
+   1153   1152   31.5    0.1010   0.1150      0.1010
+   1152   1151   53.1    0.1340   0.1615      0.1340
+   1155   1151   51.2    0.1340   0.1583      0.1340
+   1150   1149   41.9    0.1010   0.1199      0.1010
+   1151   1149   62.6    0.1340   0.1623      0.1340
+   1101   1099   32.6    0.1335   0.1388      0.1335
+   3869   3867   38.3    0.1335   0.1410      0.1335
+   3366   3365   36.4    0.1010   0.1131      0.1010
+   3367   3365   32.2    0.1010   0.1152      0.1010
+   3363   3362   30.1    0.1010   0.1148      0.1010
+  18392  18390   42.8    0.1470   0.1468      0.1470
+   1576   1575   37.8    0.1010   0.1219      0.1010
+   1598   1597   32.2    0.1010   0.1017      0.1010
+    865    866   34.8    0.1229   0.1230      0.1229
+    867    865   39.5    0.1335   0.1484      0.1335
+    882    869   54.7    0.1522   0.1749      0.1522
+    913    915   39.9    0.1335   0.1421      0.1335
+    898    913   31.6    0.1522   0.1586      0.1522
+   1748   1745   32.6    0.1463   0.1745      0.1463
+   1755   1754   37.5    0.1010   0.1226      0.1010
+   1756   1754   37.7    0.1010   0.1229      0.1010
+   1751   1750   67.1    0.1340   0.1798      0.1340
+   1754   1750   66.4    0.1340   0.1786      0.1340
+   1752   1751   38.6    0.1010   0.1249      0.1010
+    973    972   41.3    0.1229   0.1259      0.1229
+    974    972   43.1    0.1335   0.1461      0.1335
+    328    329   32.1    0.1229   0.1219      0.1229
+    328    330   36.5    0.1335   0.1500      0.1335
+   1024   1023   35.8    0.1090   0.1346      0.1090
+    913    914   37.9    0.1229   0.1274      0.1229
+   1609   1611   64.4    0.1250   0.1310      0.1250
+    885    884   34.9    0.1010   0.1238      0.1010
+    883    882   67.8    0.1229   0.1547      0.1229
+    884    882   71.0    0.1335   0.1751      0.1335
+    972    974   42.7    0.1335   0.1401      0.1335
+   1753   1751   39.9    0.1010   0.1245      0.1010
+   1749   1748   44.4    0.1010   0.1318      0.1010
+   1750   1748   74.9    0.1340   0.1823      0.1340
+   1690   1689   42.7    0.1010   0.1272      0.1010
+   1691   1689   41.7    0.1010   0.1260      0.1010
+
+step 37: Water molecule starting at atom 111715 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+   1021   1019   40.2    0.1449   0.1897      0.1449
+   1022   1021   45.9    0.1090   0.1483      0.1090
+   1036   1021   86.2    0.1522   0.2548      0.1522
+   1018   1017   87.6    0.1229   0.1539      0.1229
+   1019   1017   51.2    0.1335   0.1522      0.1335
+   1037   1036   87.5    0.1229   0.2455      0.1229
+   1038   1036   86.5    0.1335   0.2734      0.1335
+   1039   1038   57.1    0.1010   0.1716      0.1010
+    996    997   37.0    0.1229   0.1283      0.1229
+    996    998   49.9    0.1335   0.1503      0.1335
+    987    984   34.2    0.1463   0.1773      0.1463
+    988    987   46.9    0.1010   0.1367      0.1010
+    989    987   83.6    0.1340   0.2158      0.1340
+    328    330   36.0    0.1335   0.1480      0.1335
+    328    329   31.2    0.1229   0.1201      0.1229
+   1686   1683   49.0    0.1463   0.1948      0.1463
+   1689   1688   74.0    0.1340   0.2188      0.1340
+   1692   1688   75.4    0.1340   0.2170      0.1340
+   1687   1686   64.6    0.1010   0.1615      0.1010
+   1040   1038   46.7    0.1449   0.2056      0.1449
+   1041   1040   34.2    0.1090   0.1281      0.1090
+   1061   1060   30.5    0.1010   0.1033      0.1010
+   1059   1058   37.8    0.1229   0.1324      0.1229
+   3951   3944   31.3    0.1522   0.1593      0.1522
+    361    376   35.8    0.1522   0.1658      0.1522
+    332    345   59.5    0.1522   0.1835      0.1522
+    345    346   74.8    0.1229   0.1634      0.1229
+    345    347   76.4    0.1335   0.1864      0.1335
+    347    348   39.0    0.1010   0.1320      0.1010
+    990    989   76.6    0.1340   0.2184      0.1340
+    993    989   85.8    0.1340   0.2129      0.1340
+    452    453   34.4    0.1340   0.1404      0.1340
+   1688   1686   86.7    0.1340   0.2528      0.1340
+   1693   1692   44.3    0.1010   0.1371      0.1010
+   1694   1692   42.8    0.1010   0.1359      0.1010
+    376    377   46.4    0.1229   0.1307      0.1229
+    376    378   58.7    0.1335   0.1684      0.1335
+    378    379   38.1    0.1010   0.1201      0.1010
+    378    380   32.9    0.1449   0.1455      0.1449
+    380    390   63.1    0.1522   0.2007      0.1522
+   1074   1072   89.2    0.1250   0.1415      0.1250
+    517    518   67.8    0.1010   0.1371      0.1010
+    392    394   34.9    0.1449   0.1748      0.1449
+    390    392   87.3    0.1335   0.2148      0.1335
+    380    390   67.9    0.1522   0.2123      0.1522
+    390    391   88.1    0.1229   0.1870      0.1229
+    392    393   42.5    0.1010   0.1280      0.1010
+    459    461   31.7    0.1335   0.1397      0.1335
+    517    519   88.7    0.1010   0.1343      0.1010
+    517    520   88.9    0.1010   0.1266      0.1010
+   3952   3951   42.6    0.1229   0.1306      0.1229
+   3953   3951   49.8    0.1335   0.1453      0.1335
+   3954   3953   31.4    0.1010   0.1104      0.1010
+    450    452   32.5    0.1340   0.1392      0.1340
+   4087   4088   30.1    0.1229   0.1228      0.1229
+    480    481   39.9    0.1229   0.1344      0.1229
+    480    482   45.2    0.1335   0.1394      0.1335
+    484    499   60.0    0.1522   0.1627      0.1522
+    514    515   55.0    0.1090   0.1370      0.1090
+    514    516   54.9    0.1090   0.1370      0.1090
+    511    514   42.1    0.1529   0.1781      0.1529
+   3360   3359   33.7    0.1010   0.1163      0.1010
+   3361   3359   58.8    0.1340   0.1632      0.1340
+   4105   4104   37.3    0.1229   0.1297      0.1229
+   4106   4104   35.2    0.1335   0.1443      0.1335
+   4150   4149   30.7    0.1229   0.1277      0.1229
+   4151   4149   32.0    0.1335   0.1409      0.1335
+    535    537   45.4    0.1250   0.1294      0.1250
+   3332   3330   32.5    0.1335   0.1383      0.1335
+   3362   3361   55.8    0.1340   0.1612      0.1340
+   3365   3361   58.0    0.1340   0.1656      0.1340
+     46     48   32.2    0.1449   0.1797      0.1449
+     44     46   32.5    0.1335   0.1360      0.1335
+   4135   4120   38.2    0.1522   0.1631      0.1522
+   4136   4135   47.2    0.1229   0.1321      0.1229
+   4137   4135   50.4    0.1335   0.1479      0.1335
+   4277   4276   31.1    0.1010   0.1040      0.1010
+   4278   4276   34.3    0.1010   0.1035      0.1010
+   4279   4276   35.8    0.1010   0.1033      0.1010
+
+step 37: Water molecule starting at atom 66037 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+     48     49   34.0    0.1090   0.1296      0.1090
+     75     77   37.3    0.1340   0.1422      0.1340
+     77     78   34.6    0.1340   0.1418      0.1340
+     77     81   33.2    0.1340   0.1421      0.1340
+     62     63   48.6    0.1010   0.1517      0.1010
+     62     64   41.1    0.1449   0.1928      0.1449
+     48     60   69.0    0.1522   0.2031      0.1522
+   2745   2733   32.0    0.1522   0.1576      0.1522
+   1589   1588   33.2    0.1090   0.1152      0.1090
+   1590   1588   35.2    0.1090   0.1157      0.1090
+   1592   1591   42.2    0.1010   0.1088      0.1010
+   1593   1591   51.7    0.1010   0.1075      0.1010
+     60     61   87.5    0.1229   0.1837      0.1229
+     60     62   86.9    0.1335   0.2172      0.1335
+     88    108   42.3    0.1522   0.1655      0.1522
+   1558   1573   44.6    0.1522   0.1664      0.1522
+   1573   1575   59.4    0.1335   0.1530      0.1335
+   1575   1576   37.8    0.1010   0.1219      0.1010
+   1594   1591   49.8    0.1010   0.1068      0.1010
+   1451   1450   30.8    0.1229   0.1254      0.1229
+   1452   1450   32.1    0.1335   0.1393      0.1335
+   1553   1552   42.9    0.0945   0.0842      0.0945
+    108    109   49.8    0.1229   0.1369      0.1229
+    108    110   53.7    0.1335   0.1532      0.1335
+   1573   1574   59.5    0.1229   0.1361      0.1229
+    865    867   39.4    0.1335   0.1483      0.1335
+    991    990   48.4    0.1010   0.1480      0.1010
+    992    990   49.3    0.1010   0.1550      0.1010
+    994    993   49.2    0.1010   0.1480      0.1010
+    995    993   50.0    0.1010   0.1534      0.1010
+   4212   4211   32.8    0.1340   0.1397      0.1340
+   4215   4211   30.6    0.1340   0.1389      0.1340
+    869    882   54.6    0.1522   0.1740      0.1522
+    882    883   67.8    0.1229   0.1547      0.1229
+    882    884   71.0    0.1335   0.1750      0.1335
+    865    866   34.8    0.1229   0.1230      0.1229
+    913    898   31.6    0.1522   0.1586      0.1522
+    914    913   37.9    0.1229   0.1274      0.1229
+
+step 37: Water molecule starting at atom 59173 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+   4114   4113   88.3    0.1250   0.1575      0.1250
+   4115   4113   81.7    0.1250   0.1534      0.1250
+   4112   4110   30.3    0.1090   0.1304      0.1090
+   4113   4110   54.5    0.1522   0.1790      0.1522
+   4195   4194   30.2    0.1229   0.1252      0.1229
+   4196   4194   32.2    0.1335   0.1378      0.1335
+    915    913   39.9    0.1335   0.1421      0.1335
+   1597   1598   32.2    0.1010   0.1017      0.1010
+   1611   1609   64.4    0.1250   0.1310      0.1250
+    884    885   34.9    0.1010   0.1238      0.1010
+    997    996   36.3    0.1229   0.1298      0.1229
+   4261   4260   50.2    0.1010   0.1435      0.1010
+   4262   4260   37.2    0.1449   0.1784      0.1449
+   4263   4262   30.7    0.1090   0.1222      0.1090
+   2824   2828   49.8    0.1340   0.1542      0.1340
+   2824   2825   50.3    0.1340   0.1547      0.1340
+    998    996   48.2    0.1335   0.1532      0.1335
+    984    987   34.2    0.1463   0.1773      0.1463
+    987    988   46.9    0.1010   0.1367      0.1010
+    987    989   83.6    0.1340   0.2158      0.1340
+    989    990   76.6    0.1340   0.2184      0.1340
+    990    991   48.4    0.1010   0.1480      0.1010
+   2823   2822   31.1    0.1010   0.1136      0.1010
+   2822   2824   55.2    0.1340   0.1547      0.1340
+   2746   2745   39.0    0.1229   0.1273      0.1229
+   2747   2745   39.9    0.1335   0.1406      0.1335
+   2794   2793   33.2    0.1229   0.1278      0.1229
+   2795   2793   37.0    0.1335   0.1408      0.1335
+    990    992   49.3    0.1010   0.1550      0.1010
+    989    993   85.8    0.1340   0.2129      0.1340
+    993    994   49.2    0.1010   0.1480      0.1010
+    993    995   50.0    0.1010   0.1534      0.1010
+    332    345   59.5    0.1522   0.1834      0.1522
+   1000    998   33.3    0.1449   0.1696      0.1449
+    671    674   39.4    0.1463   0.1883      0.1463
+    674    676   85.8    0.1340   0.2500      0.1340
+    676    677   85.9    0.1340   0.2416      0.1340
+    677    678   50.0    0.1010   0.1509      0.1010
+    677    679   51.2    0.1010   0.1549      0.1010
+    676    680   86.3    0.1340   0.2543      0.1340
+   1001   1000   36.2    0.1090   0.1258      0.1090
+   1072   1062   41.8    0.1522   0.1859      0.1522
+    347    348   39.0    0.1010   0.1320      0.1010
+    345    346   74.8    0.1229   0.1634      0.1229
+    345    347   76.4    0.1335   0.1864      0.1335
+    680    682   57.4    0.1010   0.1691      0.1010
+   2148   2146   89.1    0.1250   0.1419      0.1250
+   1420   1419   37.5    0.1229   0.1296      0.1229
+   1421   1419   39.9    0.1335   0.1424      0.1335
+    392    393   43.0    0.1010   0.1309      0.1010
+    392    394   35.4    0.1449   0.1778      0.1449
+    390    391   87.1    0.1229   0.1983      0.1229
+    390    392   86.3    0.1335   0.2271      0.1335
+    450    452   32.5    0.1340   0.1392      0.1340
+   1525   1524   31.2    0.1010   0.1116      0.1010
+   1526   1524   56.6    0.1340   0.1584      0.1340
+   1527   1526   58.8    0.1340   0.1648      0.1340
+   1530   1526   54.8    0.1340   0.1621      0.1340
+   1528   1527   37.2    0.1010   0.1174      0.1010
+    452    453   34.4    0.1340   0.1404      0.1340
+   4104   4105   37.5    0.1229   0.1296      0.1229
+   4104   4106   35.0    0.1335   0.1426      0.1335
+    459    461   31.7    0.1335   0.1398      0.1335
+   1529   1527   32.4    0.1010   0.1152      0.1010
+   3558   3556   30.1    0.1090   0.1122      0.1090
+   3562   3559   31.9    0.1370   0.1405      0.1370
+   3570   3569   41.6    0.1010   0.1410      0.1010
+   3571   3569   32.0    0.1450   0.1822      0.1449
+   4088   4087   30.1    0.1229   0.1228      0.1229
+    482    484   33.7    0.1449   0.1792      0.1449
+    480    481   40.1    0.1229   0.1359      0.1229
+    480    482   43.5    0.1335   0.1392      0.1335
+    484    485   33.7    0.1090   0.1309      0.1090
+    484    499   61.1    0.1522   0.1924      0.1522
+   3551   3550   47.7    0.1229   0.1202      0.1229
+   3552   3550   46.4    0.1335   0.1583      0.1335
+   3567   3554   65.2    0.1523   0.1902      0.1522
+   3568   3567   86.3    0.1229   0.1765      0.1229
+   3569   3567   78.5    0.1336   0.1980      0.1335
+   4241   4239   32.6    0.1335   0.1388      0.1335
+    499    500   82.5    0.1229   0.1563      0.1229
+    499    501   85.5    0.1335   0.1763      0.1335
+    501    502   50.7    0.1010   0.1542      0.1010
+    501    503   37.7    0.1449   0.1873      0.1449
+    535    537   45.4    0.1250   0.1294      0.1250
+   4283   4282   36.2    0.1010   0.1048      0.1010
+   4258   4243   53.7    0.1522   0.1800      0.1522
+   4259   4258   77.7    0.1229   0.1462      0.1229
+   4260   4258   74.1    0.1335   0.1699      0.1335
+   4281   4280   37.3    0.1229   0.1301      0.1229
+   4120   4135   38.2    0.1522   0.1630      0.1522
+   4135   4136   47.2    0.1229   0.1321      0.1229
+   4135   4137   50.4    0.1335   0.1479      0.1335
+   4149   4150   30.7    0.1229   0.1276      0.1229
+   4149   4151   31.9    0.1335   0.1402      0.1335
+    680    681   55.6    0.1010   0.1601      0.1010
+    674    675   53.4    0.1010   0.1492      0.1010
+    646    645   36.8    0.1229   0.1291      0.1229
+    647    645   40.0    0.1335   0.1420      0.1335
+   2096   2095   31.1    0.1090   0.1268      0.1090
+   2110   2095   65.3    0.1522   0.1940      0.1522
+   2111   2110   87.0    0.1229   0.1758      0.1229
+   2112   2110   85.9    0.1335   0.1990      0.1335
+   2113   2112   54.9    0.1010   0.1606      0.1010
+   2114   2112   39.5    0.1449   0.1890      0.1449
+   2115   2114   32.0    0.1090   0.1271      0.1090
+   2132   2114   33.4    0.1522   0.1789      0.1522
+   2133   2132   36.7    0.1229   0.1310      0.1229
+   2093   2091   31.4    0.1335   0.1387      0.1335
+   2135   2134   39.5    0.1010   0.1045      0.1010
+   2146   2136   41.8    0.1522   0.1841      0.1522
+   1419   1406   33.4    0.1522   0.1586      0.1522
+   3676   3675   67.7    0.1010   0.1450      0.1010
+   3677   3675   32.4    0.1010   0.1216      0.1010
+   3679   3678   88.4    0.1010   0.1459      0.1010
+   3680   3678   88.4    0.1010   0.1370      0.1010
+   3577   3576   89.5    0.1250   0.3303      0.1250
+   3578   3576   89.6    0.1250   0.3644      0.1250
+   3575   3573   84.4    0.1090   0.0768      0.1090
+   3576   3573   88.0    0.1522   0.2760      0.1522
+   3672   3669   35.1    0.1463   0.1774      0.1463
+   3675   3674   47.5    0.1340   0.1607      0.1340
+   3673   3672   36.2    0.1010   0.1188      0.1010
+   3674   3672   67.1    0.1340   0.1641      0.1340
+   3598   3583   38.7    0.1522   0.1631      0.1522
+   3599   3598   49.1    0.1229   0.1313      0.1229
+   3600   3598   50.7    0.1335   0.1484      0.1335
+   3601   3600   31.2    0.1010   0.1128      0.1010
+   4296   4294   42.5    0.1250   0.1293      0.1250
+    597    599   31.8    0.1335   0.1374      0.1335
+    562    564   30.4    0.1335   0.1382      0.1335
+   2125   2122   33.9    0.1529   0.1652      0.1529
+   2071   2070   34.9    0.1229   0.1269      0.1229
+   2072   2070   34.2    0.1335   0.1401      0.1335
+   2063   2061   34.6    0.1340   0.1406      0.1340
+   2064   2063   33.9    0.1340   0.1411      0.1340
+   2067   2063   33.7    0.1340   0.1411      0.1340
+   3138   3137   86.1    0.1340   0.2433      0.1340
+   3141   3137   86.7    0.1340   0.2441      0.1340
+   3142   3141   55.6    0.1010   0.1704      0.1010
+   3143   3141   55.9    0.1010   0.1728      0.1010
+   3024   3023   45.0    0.1010   0.0995      0.1010
+   3027   3023   31.3    0.1344   0.1411      0.1343
+   3139   3138   52.2    0.1010   0.1481      0.1010
+   3140   3138   51.2    0.1010   0.1577      0.1010
+   3020   3019   36.1    0.1091   0.1133      0.1090
+   3022   3019   87.0    0.1505   0.3297      0.1504
+   3018   3017   30.9    0.1090   0.1199      0.1090
+   3030   3017   39.0    0.1523   0.1965      0.1522
+   3023   3022   87.8    0.1382   0.3339      0.1381
+   3025   3022   88.1    0.1371   0.3965      0.1370
+   3026   3025   69.9    0.1080   0.1592      0.1080
+   3029   3025   50.7    0.1394   0.1800      0.1394
+   2208   2196   31.3    0.1522   0.1576      0.1522
+   1987   1972   32.9    0.1522   0.1607      0.1522
+   1988   1987   41.6    0.1229   0.1283      0.1229
+   1989   1987   45.5    0.1335   0.1476      0.1335
+   2126   2125   41.9    0.1090   0.1210      0.1090
+   2127   2125   39.0    0.1090   0.1200      0.1090
+   2129   2128   50.5    0.1010   0.1150      0.1010
+   2130   2128   62.3    0.1010   0.1110      0.1010
+   2131   2128   65.1    0.1010   0.1112      0.1010
+   2001   1991   31.9    0.1522   0.1593      0.1522
+   2002   2001   45.2    0.1229   0.1349      0.1229
+   2003   2001   47.4    0.1335   0.1497      0.1335
+   2685   2683   89.2    0.1250   0.1672      0.1250
+   2683   2673   37.7    0.1522   0.1807      0.1522
+   1956   1943   46.1    0.1522   0.1686      0.1522
+   1957   1956   54.6    0.1229   0.1421      0.1229
+   1958   1956   60.1    0.1335   0.1560      0.1335
+   2599   2598   33.4    0.1010   0.1154      0.1010
+
+step 37: Water molecule starting at atom 35788 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+   2600   2598   65.3    0.1340   0.1699      0.1340
+   2602   2601   39.8    0.1010   0.1269      0.1010
+   2603   2601   38.2    0.1010   0.1276      0.1010
+   2601   2600   64.1    0.1340   0.1753      0.1340
+   2604   2600   61.6    0.1340   0.1647      0.1340
+   2606   2604   35.2    0.1010   0.1162      0.1010
+   3136   3135   46.8    0.1010   0.1429      0.1010
+   3137   3135   85.9    0.1340   0.2394      0.1340
+   3042   3034   34.2    0.1522   0.1712      0.1522
+   3033   3032   36.2    0.1010   0.1253      0.1010
+   3043   3042   34.4    0.1229   0.1279      0.1229
+   3044   3042   35.6    0.1335   0.1381      0.1335
+   3135   3132   34.6    0.1463   0.1781      0.1463
+   3014   3013   30.6    0.1229   0.1235      0.1229
+   3031   3030   87.1    0.1229   0.1738      0.1229
+   3032   3030   86.4    0.1335   0.1903      0.1335
+   3746   3745   39.2    0.1010   0.1050      0.1010
+   3706   3704   34.4    0.1449   0.1873      0.1449
+   3707   3706   37.9    0.1090   0.1374      0.1090
+   3721   3706   85.8    0.1522   0.2024      0.1522
+   3722   3721   87.4    0.1229   0.2222      0.1229
+   3723   3721   86.3    0.1335   0.2445      0.1335
+   3724   3723   57.8    0.1010   0.1711      0.1010
+   3725   3723   44.0    0.1449   0.1994      0.1449
+   3726   3725   33.7    0.1090   0.1287      0.1090
+   3743   3725   33.4    0.1522   0.1808      0.1522
+   3744   3743   38.7    0.1229   0.1319      0.1229
+   2209   2208   38.5    0.1229   0.1270      0.1229
+   2210   2208   39.4    0.1335   0.1398      0.1335
+   2292   2291   47.8    0.1010   0.1466      0.1010
+   2293   2291   49.8    0.1010   0.1465      0.1010
+   1221   1220   34.6    0.1229   0.1259      0.1229
+   1222   1220   40.0    0.1335   0.1399      0.1335
+   1182   1184   31.9    0.1335   0.1380      0.1335
+   2634   2635   33.0    0.1090   0.1308      0.1090
+   2632   2630   37.8    0.1449   0.1877      0.1449
+   2633   2632   42.5    0.1090   0.1406      0.1090
+   2647   2632   86.2    0.1522   0.2358      0.1522
+   2629   2628   48.6    0.1229   0.1402      0.1229
+   2630   2628   32.5    0.1335   0.1315      0.1335
+   2648   2647   87.7    0.1229   0.2380      0.1229
+   2649   2647   86.7    0.1335   0.2686      0.1335
+   2650   2649   56.1    0.1010   0.1691      0.1010
+   2651   2649   46.2    0.1449   0.2045      0.1449
+   2651   2652   30.8    0.1090   0.1253      0.1090
+   2672   2671   35.1    0.1010   0.1019      0.1010
+   2670   2669   31.9    0.1229   0.1308      0.1229
+   2585   2583   34.7    0.1335   0.1439      0.1335
+   2608   2607   53.4    0.1229   0.1402      0.1229
+   2609   2607   58.3    0.1335   0.1585      0.1335
+   2524   2509   31.6    0.1522   0.1587      0.1522
+   2524   2525   41.7    0.1229   0.1274      0.1229
+   2526   2524   43.0    0.1335   0.1453      0.1335
+   2539   2538   38.1    0.1229   0.1297      0.1229
+   2540   2538   39.1    0.1335   0.1434      0.1335
+   2607   2587   42.5    0.1522   0.1663      0.1522
+   2494   2493   47.9    0.1229   0.1352      0.1229
+   2495   2493   49.0    0.1335   0.1496      0.1335
+   3186   3188   44.8    0.1449   0.2018      0.1449
+   3208   3209   32.4    0.1010   0.1032      0.1010
+   3220   3222   41.7    0.1250   0.1282      0.1250
+   1723   1733   35.5    0.1522   0.1617      0.1522
+   1733   1734   48.8    0.1229   0.1346      0.1229
+   1733   1735   52.1    0.1335   0.1450      0.1335
+   2493   2480   41.2    0.1522   0.1620      0.1522
+   3167   3169   31.0    0.1449   0.1784      0.1449
+   3169   3170   33.4    0.1090   0.1289      0.1090
+   3169   3184   68.3    0.1522   0.1869      0.1522
+   3184   3185   87.7    0.1229   0.1761      0.1229
+   3184   3186   87.3    0.1335   0.1907      0.1335
+   3145   3144   37.4    0.1229   0.1272      0.1229
+   3146   3144   36.6    0.1335   0.1398      0.1335
+   3127   3126   34.5    0.1090   0.1084      0.1090
+   3204   3202   32.7    0.1010   0.1031      0.1010
+   3205   3202   33.6    0.1010   0.1031      0.1010
+   2353   2352   45.3    0.1229   0.1265      0.1229
+   2345   2344   89.7    0.1090   0.1743      0.1090
+   3062   3061   33.0    0.1229   0.1254      0.1229
+   3063   3061   39.2    0.1335   0.1448      0.1335
+   3075   3065   35.6    0.1522   0.1620      0.1522
+   3076   3075   49.3    0.1229   0.1372      0.1229
+   3077   3075   52.7    0.1335   0.1540      0.1335
+   3759   3757   65.4    0.1250   0.1309      0.1250
+   2288   2287   74.8    0.1340   0.2051      0.1340
+   2291   2287   76.4    0.1340   0.2107      0.1340
+   2286   2285   47.0    0.1010   0.1379      0.1010
+   2287   2285   85.5    0.1340   0.1943      0.1340
+   2285   2282   35.4    0.1463   0.1804      0.1463
+   2289   2288   45.5    0.1010   0.1366      0.1010
+   2290   2288   44.8    0.1010   0.1369      0.1010
+   2223   2224   35.4    0.1010   0.1133      0.1010
+   2223   2225   62.0    0.1340   0.1568      0.1340
+   2225   2226   53.5    0.1340   0.1609      0.1340
+   2226   2227   31.6    0.1010   0.1154      0.1010
+   2225   2229   53.1    0.1340   0.1617      0.1340
+   2229   2230   30.9    0.1010   0.1132      0.1010
+   2229   2231   30.0    0.1010   0.1145      0.1010
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+
+Step 38, time 0.038 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.003054, max 0.104257 (between atoms 16271 and 16270)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 38, time 0.038 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001123, max 0.032537 (between atoms 16292 and 16290)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16269  16270   39.5    0.1435   0.1491      0.1435
+  16270  16271   37.1    0.1360   0.1502      0.1360
+  16291  16290   48.3    0.1230   0.1222      0.1230
+
+Step 38, time 0.038 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002667, max 0.087887 (between atoms 28436 and 28435)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  13246  13245   32.2    0.1530   0.1536      0.1530
+  28433  28432   32.2    0.1480   0.1478      0.1480
+  28434  28432   54.7    0.1480   0.1496      0.1480
+  28435  28432   35.0    0.1610   0.1645      0.1610
+  16271  16270   37.1    0.1360   0.1502      0.1360
+  16270  16269   39.5    0.1435   0.1491      0.1435
+  16290  16291   48.3    0.1230   0.1222      0.1230
+
+Step 38, time 0.038 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.004338, max 0.101831 (between atoms 680 and 676)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 38, time 0.038 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.004468, max 0.155017 (between atoms 29374 and 29373)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 38, time 0.038 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.005006, max 0.099396 (between atoms 1688 and 1686)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+    677    676   38.1    0.1340   0.1465      0.1340
+    680    676   39.4    0.1340   0.1476      0.1340
+    676    674   40.4    0.1340   0.1469      0.1340
+   2632   2647   38.3    0.1522   0.1641      0.1522
+   2647   2648   46.5    0.1229   0.1352      0.1229
+   2647   2649   47.7    0.1335   0.1499      0.1335
+
+Step 38, time 0.038 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.007156, max 0.141069 (between atoms 1038 and 1036)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   2110   2111   35.9    0.1229   0.1281      0.1229
+   2110   2112   36.3    0.1335   0.1403      0.1335
+  29374  29373   54.8    0.1436   0.1657      0.1435
+  29392  29373   34.5    0.1530   0.1581      0.1530
+  29375  29374   38.6    0.1361   0.1430      0.1360
+  29393  29392   41.8    0.1431   0.1383      0.1430
+   3185   3184   37.0    0.1229   0.1281      0.1229
+   3186   3184   36.5    0.1335   0.1408      0.1335
+   2344   2345   56.6    0.1090   0.1048      0.1090
+   1750   1748   31.6    0.1340   0.1404      0.1340
+   1689   1688   33.2    0.1340   0.1444      0.1340
+   1692   1688   33.5    0.1340   0.1444      0.1340
+   1688   1686   42.1    0.1340   0.1473      0.1340
+
+Step 38, time 0.038 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.015876, max 0.318632 (between atoms 3025 and 3022)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+     60     61   36.0    0.1229   0.1289      0.1229
+     60     62   37.6    0.1335   0.1422      0.1335
+   1036   1021   42.4    0.1522   0.1670      0.1522
+   1018   1017   32.8    0.1229   0.1273      0.1229
+   1037   1036   51.0    0.1229   0.1374      0.1229
+   1038   1036   51.3    0.1335   0.1523      0.1335
+   1074   1072   33.0    0.1250   0.1265      0.1250
+    884    882   30.4    0.1335   0.1391      0.1335
+    989    987   33.8    0.1340   0.1427      0.1340
+    345    346   31.2    0.1229   0.1279      0.1229
+    345    347   32.0    0.1335   0.1401      0.1335
+    990    989   32.9    0.1340   0.1425      0.1340
+    517    519   34.0    0.1010   0.1035      0.1010
+    517    520   32.3    0.1010   0.1033      0.1010
+    993    989   34.0    0.1340   0.1423      0.1340
+    390    392   37.0    0.1335   0.1419      0.1335
+    390    391   36.1    0.1229   0.1287      0.1229
+     60     61   36.0    0.1229   0.1289      0.1229
+     60     62   37.6    0.1335   0.1422      0.1335
+    882    884   30.4    0.1335   0.1391      0.1335
+    987    989   33.8    0.1340   0.1427      0.1340
+    989    990   32.9    0.1340   0.1425      0.1340
+    989    993   34.0    0.1340   0.1423      0.1340
+    345    346   31.2    0.1229   0.1279      0.1229
+   4114   4113   33.2    0.1250   0.1280      0.1250
+   4115   4113   31.2    0.1250   0.1280      0.1250
+    674    676   40.4    0.1340   0.1469      0.1340
+    676    677   38.1    0.1340   0.1465      0.1340
+    676    680   39.4    0.1340   0.1476      0.1340
+    345    347   32.0    0.1335   0.1401      0.1335
+    390    391   36.9    0.1229   0.1311      0.1229
+    390    392   37.6    0.1335   0.1442      0.1335
+    499    500   31.6    0.1229   0.1269      0.1229
+   2148   2146   32.9    0.1250   0.1266      0.1250
+   3568   3567   34.6    0.1229   0.1292      0.1229
+   3569   3567   32.7    0.1336   0.1418      0.1335
+    499    501   32.1    0.1335   0.1388      0.1335
+   4259   4258   30.7    0.1229   0.1262      0.1229
+   4260   4258   30.7    0.1335   0.1384      0.1335
+   2111   2110   35.9    0.1229   0.1282      0.1229
+   2112   2110   36.3    0.1335   0.1407      0.1335
+   3679   3678   38.1    0.1010   0.1039      0.1010
+   3680   3678   35.9    0.1010   0.1044      0.1010
+   3577   3576   61.3    0.1250   0.1647      0.1250
+   3578   3576   71.2    0.1250   0.1625      0.1250
+   3576   3573   49.5    0.1522   0.1827      0.1522
+   3138   3137   39.4    0.1340   0.1465      0.1340
+   3141   3137   39.3    0.1340   0.1463      0.1340
+   3022   3019   50.1    0.1505   0.1845      0.1504
+   3023   3022   54.5    0.1382   0.1744      0.1381
+   3025   3022   65.2    0.1371   0.1807      0.1370
+   3026   3025   33.8    0.1080   0.1191      0.1080
+   2685   2683   40.6    0.1250   0.1263      0.1250
+   3137   3135   39.8    0.1340   0.1458      0.1340
+   3031   3030   32.7    0.1229   0.1280      0.1229
+   3032   3030   34.1    0.1335   0.1392      0.1335
+   3721   3706   32.8    0.1522   0.1600      0.1522
+   3722   3721   42.8    0.1229   0.1316      0.1229
+   3723   3721   43.2    0.1335   0.1454      0.1335
+   2647   2632   38.3    0.1522   0.1641      0.1522
+   2648   2647   46.5    0.1229   0.1352      0.1229
+   2649   2647   47.7    0.1335   0.1499      0.1335
+   3184   3185   37.1    0.1229   0.1276      0.1229
+   3184   3186   36.2    0.1335   0.1389      0.1335
+   2345   2344   56.6    0.1090   0.1049      0.1090
+   2288   2287   32.2    0.1340   0.1417      0.1340
+   2291   2287   32.8    0.1340   0.1421      0.1340
+   2287   2285   33.4    0.1340   0.1412      0.1340
+
+Step 39, time 0.039 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.005775, max 0.182252 (between atoms 3577 and 3576)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   3577   3576   44.8    0.1647   0.1478      0.1250
+   3578   3576   59.4    0.1625   0.1444      0.1250
+   3576   3573   48.9    0.1827   0.1653      0.1522
+   3023   3022   41.8    0.1744   0.1522      0.1381
+   3025   3022   39.1    0.1807   0.1531      0.1370
+   3022   3019   42.9    0.1845   0.1571      0.1504
+
+step 39: Water molecule starting at atom 41338 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+
+Step 41, time 0.041 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.021748, max 0.789443 (between atoms 16269 and 16288)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 41, time 0.041 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.014953, max 0.807082 (between atoms 27971 and 27972)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 41, time 0.041 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.040733, max 0.948954 (between atoms 16291 and 16290)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16269  16268   60.8    0.1530   0.2661      0.1530
+  16236  16237   30.0    0.1430   0.1470      0.1430
+
+Step 41, time 0.041 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.043332, max 0.807123 (between atoms 27971 and 27972)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  27969  27968   60.6    0.1530   0.2598      0.1530
+  27970  27969   86.8    0.1435   0.1875      0.1435
+  27988  27969   59.8    0.1530   0.2380      0.1530
+
+Step 41, time 0.041 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.006528, max 0.279085 (between atoms 2763 and 2765)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  11299  11298   69.2    0.1230   0.1220      0.1230
+  23550  23549   30.9    0.1435   0.1461      0.1435
+  16272  16271   36.7    0.1230   0.1516      0.1230
+  16273  16271   58.9    0.1530   0.1304      0.1530
+  16269  16270   86.4    0.1435   0.1578      0.1435
+  16268  16269   60.8    0.1530   0.2661      0.1530
+  16271  16270   84.7    0.1360   0.1912      0.1360
+  16274  16273   52.9    0.1530   0.2261      0.1530
+  27971  27972   88.9    0.1230   0.2223      0.1230
+  27970  27971   87.4    0.1360   0.1999      0.1360
+  27969  27970   86.8    0.1435   0.1873      0.1435
+  27968  27969   60.6    0.1530   0.2598      0.1530
+  27969  27988   60.1    0.1530   0.2392      0.1530
+  27973  27974   43.5    0.1530   0.1935      0.1530
+  16288  16289   35.1    0.1430   0.1336      0.1430
+  16291  16290   89.5    0.1230   0.2397      0.1230
+  16292  16290   40.0    0.1530   0.1414      0.1530
+  16269  16270   86.4    0.1435   0.1578      0.1435
+  16270  16271   84.7    0.1360   0.1912      0.1360
+  16271  16272   36.7    0.1230   0.1516      0.1230
+  16271  16273   58.9    0.1530   0.1304      0.1530
+  16273  16274   52.9    0.1530   0.2261      0.1530
+  27971  27970   87.4    0.1360   0.1998      0.1360
+  27971  27972   88.9    0.1230   0.2223      0.1230
+  28439  28438   39.4    0.1360   0.1675      0.1360
+  27973  27974   43.5    0.1530   0.1935      0.1530
+  28456  28437   33.6    0.1530   0.1758      0.1530
+  28437  28436   45.1    0.1530   0.0426      0.1530
+  28436  28435   78.1    0.1430   0.0842      0.1430
+  28429  28430   34.3    0.1530   0.1372      0.1530
+
+Step 41, time 0.041 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.044231, max 0.780927 (between atoms 10031 and 10030)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+  16269  16288   61.5    0.1530   0.2738      0.1530
+  16289  16288   35.1    0.1430   0.1336      0.1430
+  16290  16291   89.5    0.1230   0.2397      0.1230
+  16290  16292   40.0    0.1530   0.1414      0.1530
+  16292  16293   31.4    0.1530   0.1677      0.1530
+  10445  10446   51.0    0.1435   0.1362      0.1435
+  10443  10444   44.9    0.1430   0.1617      0.1430
+  28429  28430   33.9    0.1530   0.1376      0.1530
+  28430  28431   51.9    0.1430   0.1392      0.1430
+  28432  28433   48.7    0.1480   0.1828      0.1480
+  28432  28434   91.3    0.1480   0.2363      0.1480
+  28432  28435   61.9    0.1610   0.2414      0.1610
+  28435  28436   87.9    0.1430   0.1672      0.1430
+  16269  16288   61.5    0.1530   0.2738      0.1530
+  16293  16292   31.4    0.1530   0.1677      0.1530
+  10446  10445   51.0    0.1435   0.1362      0.1435
+  10445  10464   46.9    0.1530   0.1484      0.1530
+  10465  10466   30.2    0.1360   0.1472      0.1360
+  10444  10443   44.9    0.1430   0.1617      0.1430
+  28431  28430   53.0    0.1430   0.1411      0.1430
+  28433  28432   51.4    0.1480   0.1940      0.1480
+  28434  28432   90.9    0.1480   0.2518      0.1480
+  28435  28432   63.1    0.1610   0.2653      0.1610
+  16237  16236   30.2    0.1430   0.1473      0.1430
+
+Step 41, time 0.041 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.071597, max 1.405088 (between atoms 676 and 674)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 41, time 0.041 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.085458, max 1.436165 (between atoms 29374 and 29373)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   2764   2763   45.5    0.1010   0.1263      0.1010
+   2763   2765   43.1    0.1010   0.1292      0.1010
+   2760   2757   45.9    0.1463   0.1870      0.1463
+   2763   2762   78.2    0.1340   0.2344      0.1340
+   2766   2762   74.4    0.1340   0.2331      0.1340
+   2710   2699   43.6    0.1522   0.1705      0.1522
+   2711   2710   58.5    0.1229   0.1440      0.1229
+
+Step 41, time 0.041 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.122256, max 2.023527 (between atoms 3186 and 3184)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1200   1220   52.5    0.1522   0.1522      0.1522
+   1135   1134   46.2    0.1229   0.1335      0.1229
+   1136   1134   42.4    0.1335   0.1446      0.1335
+   1182   1183   67.8    0.1229   0.1553      0.1229
+   1182   1184   73.0    0.1335   0.1671      0.1335
+   1184   1185   35.2    0.1010   0.1153      0.1010
+  10466  10465   30.2    0.1360   0.1472      0.1360
+  10445  10464   46.9    0.1530   0.1484      0.1530
+   8107   8106   33.8    0.1360   0.1441      0.1360
+   8108   8107   36.3    0.1230   0.1266      0.1230
+  21468  21469   37.2    0.1530   0.1530      0.1530
+   8106   8107   33.5    0.1360   0.1436      0.1360
+   8107   8108   35.9    0.1230   0.1259      0.1230
+  21469  21468   59.7    0.1530   0.2475      0.1530
+  21471  21470   84.6    0.1360   0.1174      0.1360
+  21472  21471   74.7    0.1230   0.2171      0.1230
+  21474  21473   38.8    0.1530   0.1863      0.1530
+  10031  10030   84.4    0.1360   0.2422      0.1360
+  10031  10032   87.7    0.1230   0.1238      0.1230
+  10029  10028   30.8    0.1530   0.1162      0.1530
+  10030  10029   88.4    0.1435   0.2429      0.1435
+   2763   2765   43.1    0.1010   0.1292      0.1010
+   2762   2763   78.2    0.1340   0.2344      0.1340
+   2760   2762   86.9    0.1340   0.2631      0.1340
+   2757   2760   46.3    0.1463   0.1876      0.1463
+   2760   2761   62.7    0.1010   0.1441      0.1010
+   2762   2766   74.4    0.1340   0.2331      0.1340
+   2766   2767   39.6    0.1010   0.1194      0.1010
+     14     15   45.0    0.1090   0.1563      0.1090
+     14     25   61.4    0.1522   0.2366      0.1522
+     25     26   87.0    0.1229   0.1882      0.1229
+     16     18   32.8    0.1090   0.1269      0.1090
+      5      6   31.0    0.1090   0.1296      0.1090
+      5     11   47.1    0.1522   0.1937      0.1522
+     11     12   69.6    0.1229   0.1823      0.1229
+     11     13   85.6    0.1335   0.2092      0.1335
+     13     14   56.0    0.1449   0.2196      0.1449
+   2710   2712   61.4    0.1335   0.1559      0.1335
+   2712   2713   33.8    0.1010   0.1156      0.1010
+   2729   2731   43.7    0.1335   0.1645      0.1335
+   2731   2732   32.7    0.1010   0.1182      0.1010
+   2773   2793   62.0    0.1522   0.1993      0.1522
+   2793   2794   87.1    0.1229   0.1740      0.1229
+   2793   2795   86.2    0.1335   0.1988      0.1335
+   2795   2796   48.9    0.1010   0.1412      0.1010
+   2795   2797   38.5    0.1449   0.1823      0.1449
+  15386  15385   51.2    0.1435   0.1361      0.1435
+  15404  15385   38.5    0.1530   0.1761      0.1530
+   1182   1162   55.0    0.1522   0.1820      0.1522
+   1883   1884   31.2    0.1229   0.1261      0.1229
+   2630   2632   58.7    0.1449   0.1815      0.1449
+   2628   2630   66.7    0.1335   0.2069      0.1335
+   2609   2611   51.8    0.1449   0.1990      0.1449
+   2611   2612   49.5    0.1090   0.1270      0.1090
+   2611   2613   37.1    0.1529   0.1738      0.1529
+   2628   2629   85.0    0.1229   0.1601      0.1229
+   2632   2633   62.4    0.1090   0.1065      0.1090
+   2632   2647   86.6    0.1522   0.3387      0.1522
+  21470  21469   85.7    0.1435   0.1488      0.1435
+  21488  21469   50.9    0.1530   0.2228      0.1530
+  11298  11299   69.1    0.1230   0.1218      0.1230
+   8626   8625   32.1    0.1435   0.1479      0.1435
+     62     64   59.3    0.1449   0.1756      0.1449
+     60     62   88.1    0.1335   0.3736      0.1335
+     62     63   73.0    0.1010   0.1370      0.1010
+     84     85   32.8    0.1229   0.1295      0.1229
+     84     86   37.8    0.1335   0.1317      0.1335
+     72     75   39.5    0.1463   0.1776      0.1463
+   2763   2764   45.5    0.1010   0.1263      0.1010
+   2699   2710   43.6    0.1522   0.1703      0.1522
+   2710   2711   58.5    0.1229   0.1438      0.1229
+   2710   2712   61.6    0.1335   0.1556      0.1335
+   2712   2713   34.2    0.1010   0.1156      0.1010
+  15384  15385   36.0    0.1530   0.1695      0.1530
+  15385  15386   58.6    0.1435   0.1579      0.1435
+  15385  15404   36.1    0.1530   0.1686      0.1530
+   2766   2768   39.5    0.1010   0.1198      0.1010
+     13     22   41.1    0.1449   0.1840      0.1449
+     25     27   85.2    0.1335   0.1868      0.1335
+     27     28   37.5    0.1010   0.1306      0.1010
+     29     44   37.8    0.1522   0.1852      0.1522
+     44     45   43.3    0.1229   0.1378      0.1229
+     44     46   68.9    0.1335   0.1864      0.1335
+     46     47   42.8    0.1010   0.1211      0.1010
+     46     48   41.8    0.1449   0.1476      0.1449
+     48     49   35.1    0.1090   0.0952      0.1090
+     48     60   88.5    0.1522   0.2012      0.1522
+     16     17   32.4    0.1090   0.1269      0.1090
+  15385  15384   39.9    0.1530   0.1800      0.1530
+   2761   2760   62.7    0.1010   0.1441      0.1010
+   2762   2760   86.8    0.1340   0.2631      0.1340
+   2767   2766   39.6    0.1010   0.1194      0.1010
+   2766   2768   39.5    0.1010   0.1198      0.1010
+  15388  15387   41.5    0.1230   0.1441      0.1230
+  15387  15386   40.2    0.1360   0.1157      0.1360
+   2647   2648   88.3    0.1229   0.3370      0.1229
+   2647   2649   88.0    0.1335   0.4644      0.1335
+   2649   2650   88.0    0.1010   0.2393      0.1010
+   2649   2651   86.0    0.1449   0.2747      0.1449
+   2651   2669   41.0    0.1522   0.1320      0.1522
+   2635   2634   51.4    0.1090   0.1074      0.1090
+   2651   2652   61.1    0.1090   0.1430      0.1090
+   2669   2670   84.8    0.1229   0.1436      0.1229
+   2671   2672   86.5    0.1010   0.1449      0.1010
+   2671   2673   35.8    0.1449   0.1676      0.1449
+   2673   2674   70.4    0.1090   0.1188      0.1090
+   2673   2675   60.7    0.1529   0.1646      0.1529
+     13     22   41.1    0.1449   0.1840      0.1449
+     11     13   85.6    0.1335   0.2092      0.1335
+
+Step 41, time 0.041 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.178097, max 2.843558 (between atoms 1038 and 1036)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   2828   2829   49.6    0.1010   0.1263      0.1010
+   2830   2828   44.9    0.1010   0.1324      0.1010
+   2822   2824   86.7    0.1340   0.2928      0.1340
+   2819   2822   40.9    0.1463   0.1807      0.1463
+   2822   2823   59.9    0.1010   0.1405      0.1010
+   2825   2824   86.8    0.1340   0.2725      0.1340
+   2673   2683   57.9    0.1522   0.1592      0.1522
+   2651   2653   38.6    0.1529   0.1672      0.1529
+   2653   2654   38.5    0.1090   0.1451      0.1090
+   2655   2653   31.3    0.1090   0.1363      0.1090
+   2656   2653   31.5    0.1529   0.1877      0.1529
+   1134   1122   36.6    0.1522   0.1615      0.1522
+   1805   1807   34.4    0.1449   0.1603      0.1449
+   1803   1805   66.7    0.1335   0.1662      0.1335
+      5     11   47.1    0.1522   0.1937      0.1522
+     78     79   34.4    0.1010   0.1160      0.1010
+     78     80   36.0    0.1010   0.1160      0.1010
+     77     78   67.7    0.1340   0.2088      0.1340
+     77     81   70.0    0.1340   0.2063      0.1340
+     75     76   54.8    0.1010   0.1376      0.1010
+     75     77   85.9    0.1340   0.2210      0.1340
+  11298  11299   69.2    0.1230   0.1222      0.1230
+  10028  10029   30.8    0.1530   0.1162      0.1530
+  10029  10030   88.4    0.1435   0.2429      0.1435
+  10030  10031   84.4    0.1360   0.2422      0.1360
+  10031  10032   87.7    0.1230   0.1238      0.1230
+    680    681   65.5    0.1010   0.1381      0.1010
+    682    680   87.1    0.1010   0.1308      0.1010
+    678    677   49.3    0.1010   0.1262      0.1010
+    679    677   56.0    0.1010   0.1193      0.1010
+    677    676   82.0    0.1340   0.3006      0.1340
+    680    676   87.9    0.1340   0.3166      0.1340
+    674    675   66.6    0.1010   0.1481      0.1010
+    676    674   88.0    0.1340   0.3223      0.1340
+   2828   2824   86.6    0.1340   0.2637      0.1340
+   2826   2825   50.7    0.1010   0.1385      0.1010
+   2827   2825   49.1    0.1010   0.1379      0.1010
+   2747   2749   34.0    0.1449   0.1629      0.1449
+   2745   2747   86.6    0.1335   0.2382      0.1335
+   2733   2745   79.2    0.1522   0.2178      0.1522
+   2733   2734   43.4    0.1090   0.1447      0.1090
+   2733   2735   34.1    0.1529   0.1913      0.1529
+   2745   2746   87.5    0.1229   0.2175      0.1229
+   1796   1803   45.7    0.1522   0.1796      0.1522
+   1803   1804   59.3    0.1229   0.1539      0.1229
+   1902   1903   41.6    0.1229   0.1279      0.1229
+   1902   1904   33.8    0.1335   0.1374      0.1335
+   2569   2571   30.6    0.1449   0.1755      0.1449
+   2567   2569   57.5    0.1335   0.1645      0.1335
+   2557   2567   51.2    0.1522   0.1737      0.1522
+   2567   2568   61.9    0.1229   0.1479      0.1229
+   2569   2570   30.9    0.1010   0.1023      0.1010
+     11     12   69.6    0.1229   0.1823      0.1229
+      5      6   31.0    0.1090   0.1296      0.1090
+     81     82   38.3    0.1010   0.1238      0.1010
+     81     83   39.9    0.1010   0.1218      0.1010
+     48     60   88.1    0.1522   0.2953      0.1522
+     60     61   88.8    0.1229   0.3269      0.1229
+     13     14   56.0    0.1449   0.2196      0.1449
+     14     15   45.0    0.1090   0.1563      0.1090
+     14     25   61.4    0.1522   0.2366      0.1522
+   3773   3772   30.1    0.1449   0.1647      0.1449
+   3774   3773   32.8    0.1090   0.1272      0.1090
+   3784   3773   46.1    0.1522   0.1732      0.1522
+   3838   3837   37.8    0.1010   0.1137      0.1010
+   3839   3837   36.0    0.1010   0.1158      0.1010
+   3834   3831   42.7    0.1463   0.1778      0.1463
+   3837   3836   69.5    0.1340   0.2167      0.1340
+   3840   3836   68.5    0.1340   0.2136      0.1340
+   3835   3834   60.6    0.1010   0.1401      0.1010
+    674    671   46.2    0.1463   0.1834      0.1463
+  29393  29394   45.7    0.1360   0.1329      0.1360
+    613    612   65.1    0.1010   0.1526      0.1010
+    614    612   87.1    0.1340   0.2890      0.1340
+
+Step 41, time 0.041 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.247177, max 2.478699 (between atoms 2649 and 2647)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+     50     51   33.1    0.1090   0.1053      0.1090
+     48     49   43.3    0.1090   0.1149      0.1090
+     48     60   87.0    0.1522   0.3249      0.1522
+     60     61   88.4    0.1229   0.3330      0.1229
+     60     62   87.8    0.1335   0.3815      0.1335
+     62     63   72.8    0.1010   0.1374      0.1010
+   2747   2748   43.9    0.1010   0.1210      0.1010
+   2771   2773   31.5    0.1449   0.1742      0.1449
+   2773   2774   33.9    0.1090   0.1320      0.1090
+   2572   2571   32.8    0.1090   0.1282      0.1090
+   2583   2571   39.5    0.1522   0.1798      0.1522
+   2584   2583   69.3    0.1229   0.1805      0.1229
+   2583   2585   85.2    0.1335   0.1627      0.1335
+   2585   2586   44.4    0.1010   0.1330      0.1010
+   2585   2587   41.7    0.1449   0.1986      0.1449
+   2587   2588   46.2    0.1090   0.1549      0.1090
+   2589   2590   33.8    0.1090   0.1354      0.1090
+   2589   2591   37.5    0.1090   0.1385      0.1090
+   2587   2607   86.8    0.1522   0.2813      0.1522
+     25     26   87.0    0.1229   0.1882      0.1229
+     25     27   85.2    0.1335   0.1868      0.1335
+     27     28   37.5    0.1010   0.1306      0.1010
+     29     44   37.8    0.1522   0.1851      0.1522
+     44     45   43.3    0.1229   0.1377      0.1229
+     44     46   68.8    0.1335   0.1856      0.1335
+     46     47   42.5    0.1010   0.1207      0.1010
+     46     48   34.1    0.1449   0.1321      0.1449
+     16     17   32.4    0.1090   0.1269      0.1090
+     16     18   32.8    0.1090   0.1269      0.1090
+   3836   3834   86.7    0.1340   0.2312      0.1340
+   3841   3840   37.0    0.1010   0.1211      0.1010
+   3842   3840   35.3    0.1010   0.1196      0.1010
+   3785   3784   63.5    0.1229   0.1477      0.1229
+   3786   3784   63.6    0.1335   0.1565      0.1335
+   3903   3902   41.0    0.1010   0.1265      0.1010
+   3904   3902   36.9    0.1010   0.1252      0.1010
+   3899   3898   79.1    0.1340   0.2237      0.1340
+   3902   3898   72.0    0.1340   0.2370      0.1340
+   3900   3899   40.7    0.1010   0.1133      0.1010
+    612    609   48.3    0.1463   0.1902      0.1463
+    597    599   86.0    0.1335   0.1909      0.1335
+    585    597   62.0    0.1522   0.1920      0.1522
+    581    583   50.5    0.1335   0.1619      0.1335
+    581    582   36.4    0.1229   0.1284      0.1229
+    597    598   79.5    0.1229   0.1759      0.1229
+    600    599   40.3    0.1010   0.1264      0.1010
+    601    599   30.5    0.1449   0.1673      0.1449
+     62     64   59.3    0.1449   0.1770      0.1449
+     84     85   33.7    0.1229   0.1322      0.1229
+     46     47   44.8    0.1010   0.1306      0.1010
+     46     48   34.1    0.1449   0.1436      0.1449
+     44     45   43.0    0.1229   0.1389      0.1229
+     44     46   69.1    0.1335   0.1988      0.1335
+     25     27   85.3    0.1335   0.1868      0.1335
+     14     25   60.8    0.1522   0.2282      0.1522
+     13     14   56.6    0.1449   0.2095      0.1449
+     11     13   88.3    0.1335   0.1709      0.1335
+   2192   2194   44.1    0.1335   0.1419      0.1335
+  29375  29374   88.9    0.1360   0.2231      0.1360
+  29376  29375   37.6    0.1230   0.1564      0.1230
+  29372  29371   47.8    0.1430   0.0776      0.1430
+  29373  29372   58.7    0.1530   0.2285      0.1530
+   2607   2608   88.1    0.1229   0.2487      0.1229
+   2607   2609   86.9    0.1335   0.2908      0.1335
+   2609   2610   57.3    0.1010   0.1702      0.1010
+   1805   1806   42.6    0.1010   0.1091      0.1010
+   1774   1773   30.7    0.1229   0.1245      0.1229
+   1855   1856   39.9    0.1229   0.1273      0.1229
+   1855   1857   45.4    0.1335   0.1380      0.1335
+   2509   2511   39.6    0.1529   0.1945      0.1529
+   2505   2507   41.8    0.1335   0.1672      0.1335
+   2495   2497   41.4    0.1449   0.1810      0.1449
+   3901   3899   42.0    0.1010   0.1120      0.1010
+   3247   3236   32.8    0.1522   0.1606      0.1522
+   3301   3300   40.6    0.1010   0.1158      0.1010
+   3302   3300   38.3    0.1010   0.1153      0.1010
+   3300   3299   75.2    0.1340   0.2319      0.1340
+   3303   3299   85.9    0.1340   0.2320      0.1340
+   3298   3297   54.7    0.1010   0.1514      0.1010
+    626    625   33.7    0.1090   0.1297      0.1090
+    625    645   67.6    0.1522   0.2025      0.1522
+    645    646   87.2    0.1229   0.1907      0.1229
+    645    647   86.2    0.1335   0.2127      0.1335
+    647    648   48.8    0.1010   0.1416      0.1010
+    647    649   37.6    0.1449   0.1822      0.1449
+    633    630   32.2    0.1459   0.1547      0.1459
+   2093   2095   37.1    0.1449   0.1573      0.1449
+   2091   2093   85.0    0.1335   0.1979      0.1335
+     13     22   39.7    0.1449   0.1686      0.1449
+     14     15   45.0    0.1090   0.1534      0.1090
+     16     17   32.8    0.1090   0.1263      0.1090
+     16     18   33.4    0.1090   0.1264      0.1090
+     25     26   87.2    0.1229   0.1884      0.1229
+     27     28   37.4    0.1010   0.1305      0.1010
+     29     44   37.9    0.1522   0.1866      0.1522
+    110    112   40.9    0.1449   0.1845      0.1449
+    108    110   86.9    0.1335   0.2776      0.1335
+  29374  29373   88.5    0.1435   0.3496      0.1435
+  29392  29373   88.7    0.1530   0.2998      0.1530
+  29393  29392   74.0    0.1430   0.2885      0.1430
+  29394  29393   43.6    0.1360   0.1315      0.1360
+  24746  24747   34.3    0.1360   0.1443      0.1360
+  24745  24746   31.2    0.1435   0.1532      0.1435
+  24747  24748   32.8    0.1230   0.1225      0.1230
+   2227   2226   48.1    0.1010   0.1246      0.1010
+   2507   2508   41.7    0.1010   0.1175      0.1010
+   2509   2510   49.6    0.1090   0.1545      0.1090
+   2509   2524   70.8    0.1522   0.2256      0.1522
+   2525   2524   87.5    0.1229   0.2245      0.1229
+   2524   2526   86.0    0.1335   0.2417      0.1335
+   2526   2527   50.2    0.1010   0.1332      0.1010
+   2526   2528   57.0    0.1449   0.2080      0.1449
+   2529   2528   46.0    0.1090   0.1573      0.1090
+   2528   2538   61.2    0.1522   0.2271      0.1522
+   2538   2539   87.1    0.1229   0.1904      0.1229
+   3299   3297   86.4    0.1340   0.2536      0.1340
+   3304   3303   48.6    0.1010   0.1324      0.1010
+   3305   3303   46.0    0.1010   0.1255      0.1010
+   3787   3786   31.3    0.1010   0.1140      0.1010
+   3897   3896   51.8    0.1010   0.1412      0.1010
+   3898   3896   87.1    0.1340   0.2393      0.1340
+   2074   2091   52.9    0.1522   0.1946      0.1522
+   2091   2092   58.9    0.1229   0.1628      0.1229
+   2093   2094   43.3    0.1010   0.1243      0.1010
+   2095   2096   36.6    0.1090   0.1086      0.1090
+   2095   2110   86.8    0.1522   0.3134      0.1522
+   2110   2111   88.4    0.1229   0.3348      0.1229
+   2110   2112   88.5    0.1335   0.3886      0.1335
+   2112   2113   88.1    0.1010   0.1452      0.1010
+   2112   2114   59.4    0.1449   0.1773      0.1449
+     88    108   87.3    0.1522   0.2582      0.1522
+     86     88   40.8    0.1449   0.1844      0.1449
+     88     89   50.6    0.1090   0.1581      0.1090
+    108    109   87.9    0.1229   0.2441      0.1229
+    110    111   51.4    0.1010   0.1388      0.1010
+    122    123   30.3    0.1229   0.1339      0.1229
+    122    124   40.6    0.1335   0.1522      0.1335
+    126    146   37.8    0.1522   0.1502      0.1522
+    810    809   36.0    0.1229   0.1262      0.1229
+   2228   2226   47.2    0.1010   0.1172      0.1010
+   2162   2161   30.4    0.1449   0.1626      0.1449
+   2163   2162   31.0    0.1090   0.1240      0.1090
+   2173   2162   42.3    0.1522   0.1685      0.1522
+   2173   2174   56.1    0.1229   0.1394      0.1229
+   2173   2175   54.3    0.1335   0.1485      0.1335
+   2538   2540   86.1    0.1335   0.2025      0.1335
+   2540   2541   43.4    0.1010   0.1335      0.1010
+   2540   2542   33.4    0.1449   0.1701      0.1449
+   3221   3220   40.5    0.1250   0.1460      0.1250
+   3222   3220   88.1    0.1250   0.1495      0.1250
+   2666   2665   31.9    0.1010   0.1014      0.1010
+   2667   2665   35.0    0.1010   0.1019      0.1010
+   2668   2665   36.3    0.1010   0.1019      0.1010
+   1757   1737   34.4    0.1522   0.1630      0.1522
+   3847   3845   31.8    0.1449   0.1759      0.1449
+   3870   3869   47.5    0.1010   0.1379      0.1010
+   3871   3869   37.3    0.1449   0.1825      0.1449
+   3868   3867   87.2    0.1229   0.1862      0.1229
+   3869   3867   86.2    0.1335   0.2104      0.1335
+   3848   3847   35.8    0.1090   0.1323      0.1090
+   3867   3847   67.7    0.1522   0.2037      0.1522
+   3896   3893   36.5    0.1463   0.1773      0.1463
+    615    614   86.6    0.1340   0.2359      0.1340
+    618    614   72.9    0.1340   0.2579      0.1340
+    619    618   41.7    0.1010   0.1307      0.1010
+    620    618   39.4    0.1010   0.1250      0.1010
+    616    615   50.9    0.1010   0.1007      0.1010
+    812    811   33.6    0.1010   0.1082      0.1010
+    814    813   34.4    0.1090   0.1154      0.1090
+    853    855   34.3    0.1529   0.1842      0.1529
+    853    854   40.9    0.1090   0.1413      0.1090
+   1557   1556   36.7    0.1010   0.1192      0.1010
+   1558   1559   44.8    0.1090   0.1440      0.1090
+   1560   1558   36.4    0.1529   0.1978      0.1529
+   1573   1558   86.6    0.1522   0.2785      0.1522
+   2208   2210   89.3    0.1335   0.1672      0.1335
+   2210   2211   38.1    0.1010   0.1100      0.1010
+   2223   2220   46.8    0.1463   0.1963      0.1463
+   2224   2223   62.0    0.1010   0.1585      0.1010
+   2225   2223   87.2    0.1340   0.3068      0.1340
+   2226   2225   86.8    0.1340   0.2626      0.1340
+   2229   2225   86.9    0.1340   0.2759      0.1340
+   2230   2229   53.0    0.1010   0.1312      0.1010
+   1736   1735   52.8    0.1010   0.1479      0.1010
+   1737   1735   35.8    0.1449   0.1833      0.1449
+   1758   1757   46.7    0.1229   0.1448      0.1229
+   1759   1757   58.4    0.1335   0.1546      0.1335
+   1734   1733   87.9    0.1229   0.2361      0.1229
+   1735   1733   87.3    0.1335   0.2762      0.1335
+   1760   1759   34.4    0.1010   0.1047      0.1010
+   1761   1759   32.7    0.1449   0.1526      0.1449
+   2462   2463   31.0    0.1010   0.1078      0.1010
+   3248   3247   44.1    0.1229   0.1316      0.1229
+   3249   3247   45.1    0.1335   0.1428      0.1335
+   3366   3365   62.1    0.1010   0.1415      0.1010
+   3367   3365   60.7    0.1010   0.1287      0.1010
+   3362   3361   86.8    0.1340   0.2819      0.1340
+   3365   3361   86.7    0.1340   0.2911      0.1340
+   3363   3362   50.3    0.1010   0.1299      0.1010
+    617    615   50.4    0.1010   0.0969      0.1010
+    552    551   31.8    0.1090   0.1254      0.1090
+    562    551   54.6    0.1522   0.1778      0.1522
+    563    562   66.3    0.1229   0.1514      0.1229
+    564    562   68.1    0.1335   0.1645      0.1335
+    565    564   38.1    0.1010   0.1252      0.1010
+   1573   1574   87.9    0.1229   0.2909      0.1229
+   1575   1573   87.0    0.1335   0.3337      0.1335
+   1576   1575   76.0    0.1010   0.1296      0.1010
+   1577   1575   53.0    0.1449   0.1968      0.1449
+   1578   1577   34.2    0.1090   0.1201      0.1090
+   1595   1577   32.7    0.1522   0.1476      0.1522
+   1598   1597   86.1    0.1010   0.1237      0.1010
+   1599   1597   35.0    0.1449   0.1811      0.1449
+   1596   1595   52.0    0.1229   0.1315      0.1229
+   2231   2229   50.6    0.1010   0.1263      0.1010
+   2465   2464   37.9    0.1090   0.1271      0.1090
+   2476   2477   70.1    0.1229   0.1646      0.1229
+   2476   2478   58.0    0.1335   0.1418      0.1335
+   2478   2480   50.1    0.1449   0.1997      0.1449
+   2480   2481   53.3    0.1090   0.1700      0.1090
+   2482   2483   43.6    0.1090   0.1399      0.1090
+   2482   2484   47.0    0.1090   0.1431      0.1090
+   2482   2485   50.0    0.1504   0.1886      0.1504
+   2480   2493   87.1    0.1522   0.2745      0.1522
+   3364   3362   50.9    0.1010   0.1317      0.1010
+   3297   3294   42.3    0.1463   0.1895      0.1463
+    146    147   67.9    0.1229   0.1614      0.1229
+    146    148   61.4    0.1335   0.1644      0.1335
+    148    149   46.5    0.1010   0.1085      0.1010
+    148    150   45.4    0.1449   0.1560      0.1449
+    150    151   32.9    0.1090   0.1166      0.1090
+  18392  18390   42.1    0.1470   0.1462      0.1470
+    795    784   35.0    0.1522   0.1647      0.1522
+    796    795   44.9    0.1229   0.1297      0.1229
+    797    795   35.0    0.1335   0.1436      0.1335
+    829    828   50.6    0.1229   0.1305      0.1229
+    830    828   34.5    0.1335   0.1411      0.1335
+    868    867   41.2    0.1010   0.1351      0.1010
+    869    867   47.9    0.1449   0.1951      0.1449
+    851    852   31.3    0.1010   0.1101      0.1010
+   2493   2494   87.9    0.1229   0.2438      0.1229
+   2493   2495   88.0    0.1335   0.2674      0.1335
+   2531   2530   34.5    0.1090   0.1325      0.1090
+   3168   3167   46.3    0.1010   0.1333      0.1010
+   3169   3167   30.1    0.1449   0.1359      0.1449
+   3170   3169   42.8    0.1090   0.1104      0.1090
+   3184   3169   87.4    0.1522   0.3352      0.1522
+    162    163   45.5    0.1229   0.1223      0.1229
+    228    229   47.8    0.1229   0.1375      0.1229
+    228    230   41.9    0.1335   0.1438      0.1335
+    274    275   35.4    0.1010   0.1082      0.1010
+    274    276   36.5    0.1449   0.1503      0.1449
+    276    277   34.7    0.1090   0.1128      0.1090
+    961    960   44.6    0.1090   0.1485      0.1090
+    853    865   47.0    0.1522   0.1976      0.1522
+    865    866   87.7    0.1229   0.2089      0.1229
+    867    865   85.4    0.1335   0.2016      0.1335
+    870    869   50.5    0.1090   0.1665      0.1090
+    882    869   87.1    0.1522   0.3288      0.1522
+    915    917   47.2    0.1449   0.1818      0.1449
+    913    915   86.1    0.1335   0.2369      0.1335
+   3148   3165   32.0    0.1522   0.1753      0.1522
+   3144   3146   71.9    0.1335   0.1766      0.1335
+   3124   3144   55.4    0.1522   0.1942      0.1522
+   3122   3124   32.3    0.1449   0.1682      0.1449
+   3144   3145   71.2    0.1229   0.1648      0.1229
+   3146   3147   32.7    0.1010   0.1191      0.1010
+   3166   3165   35.3    0.1229   0.1366      0.1229
+   3167   3165   60.2    0.1335   0.1886      0.1335
+    962    960   36.5    0.1529   0.1908      0.1529
+    972    960   64.8    0.1522   0.2178      0.1522
+    973    972   87.9    0.1229   0.2297      0.1229
+    974    972   86.4    0.1335   0.2290      0.1335
+   1041   1040   77.2    0.1090   0.1625      0.1090
+   1042   1040   53.0    0.1529   0.1898      0.1529
+   1058   1040   58.8    0.1522   0.1420      0.1522
+    898    913   73.2    0.1522   0.2190      0.1522
+    913    914   87.2    0.1229   0.2116      0.1229
+    915    916   48.5    0.1010   0.1275      0.1010
+    917    918   36.4    0.1090   0.1331      0.1090
+    917    927   45.6    0.1522   0.1916      0.1522
+    927    928   65.3    0.1229   0.1416      0.1229
+    927    929   57.0    0.1335   0.1531      0.1335
+   3185   3184   88.7    0.1229   0.3452      0.1229
+   3186   3184   87.9    0.1335   0.4036      0.1335
+   3187   3186   86.8    0.1010   0.1573      0.1010
+   3188   3186   60.3    0.1449   0.2223      0.1449
+   3209   3208   85.8    0.1010   0.1134      0.1010
+   3210   3208   38.5    0.1449   0.1768      0.1449
+   3211   3210   48.8    0.1090   0.1228      0.1090
+   1043   1042   39.3    0.1090   0.1484      0.1090
+   1044   1042   32.1    0.1090   0.1380      0.1090
+   1045   1042   34.0    0.1529   0.1946      0.1529
+    262    263   30.1    0.1090   0.1182      0.1090
+    272    273   48.7    0.1229   0.1334      0.1229
+    314    315   35.0    0.1010   0.1085      0.1010
+    314    316   34.5    0.1449   0.1787      0.1449
+   1545   1542   35.8    0.1400   0.1542      0.1400
+   1554   1537   35.9    0.1522   0.1654      0.1522
+   1555   1554   36.6    0.1229   0.1355      0.1229
+   1556   1554   52.8    0.1335   0.1691      0.1335
+   1602   1601   31.1    0.1090   0.1195      0.1090
+   1600   1599   56.3    0.1090   0.1465      0.1090
+   1601   1599   52.3    0.1529   0.1848      0.1529
+   3210   3212   43.0    0.1529   0.1655      0.1529
+   3207   3206   69.7    0.1229   0.1296      0.1229
+   1672   1671   35.3    0.1229   0.1306      0.1229
+   1673   1671   35.9    0.1335   0.1433      0.1335
+   1727   1725   30.1    0.1090   0.1270      0.1090
+   1724   1723   34.9    0.1090   0.1354      0.1090
+   1733   1723   82.4    0.1522   0.2283      0.1522
+    316    317   43.1    0.1090   0.1421      0.1090
+    316    318   34.9    0.1529   0.1828      0.1529
+    316    328   36.3    0.1522   0.1860      0.1522
+    328    329   87.4    0.1229   0.1972      0.1229
+    328    330   84.5    0.1335   0.1834      0.1335
+   1024   1023   74.0    0.1090   0.1100      0.1090
+   1599   1609   43.9    0.1522   0.1415      0.1522
+   1609   1610   37.2    0.1250   0.1416      0.1250
+   1609   1611   88.3    0.1250   0.1956      0.1250
+    230    232   37.8    0.1449   0.1747      0.1449
+    228    230   40.8    0.1335   0.1355      0.1335
+    232    233   32.9    0.1090   0.1311      0.1090
+    232    244   52.0    0.1522   0.1818      0.1522
+   2439   2440   33.3    0.1229   0.1219      0.1229
+   2420   2421   38.3    0.1229   0.1275      0.1229
+   3094   3104   32.2    0.1522   0.1580      0.1522
+   3104   3105   38.4    0.1229   0.1297      0.1229
+   3104   3106   36.7    0.1335   0.1422      0.1335
+   3120   3122   37.3    0.1335   0.1404      0.1335
+   1025   1023   38.7    0.1529   0.1651      0.1529
+   1028   1023   38.0    0.1529   0.1646      0.1529
+   1021   1019   82.8    0.1449   0.2361      0.1449
+   1022   1021   82.6    0.1090   0.1140      0.1090
+   1036   1021   86.3    0.1522   0.3624      0.1522
+   1018   1017   84.4    0.1229   0.2023      0.1229
+   1019   1017   83.8    0.1335   0.2613      0.1335
+    244    245   72.6    0.1229   0.1512      0.1229
+    244    246   82.3    0.1335   0.1569      0.1335
+    888    889   40.4    0.1090   0.1141      0.1090
+    888    890   40.5    0.1090   0.1139      0.1090
+    885    884   53.3    0.1010   0.1287      0.1010
+    886    884   40.9    0.1449   0.1849      0.1449
+    886    894   40.8    0.1522   0.1572      0.1522
+   3126   3127   46.4    0.1090   0.1197      0.1090
+   3172   3171   33.0    0.1090   0.1040      0.1090
+   3120   3121   42.8    0.1229   0.1338      0.1229
+   3189   3188   48.0    0.1090   0.1275      0.1090
+   3190   3188   33.7    0.1529   0.1650      0.1529
+   3206   3188   38.3    0.1522   0.1413      0.1522
+   3196   3199   30.7    0.1529   0.1543      0.1529
+   1037   1036   88.7    0.1229   0.3662      0.1229
+   1038   1036   88.5    0.1335   0.5131      0.1335
+   1039   1038   88.4    0.1010   0.2645      0.1010
+   1040   1038   86.3    0.1449   0.2987      0.1449
+   1061   1060   86.3    0.1010   0.1614      0.1010
+   1062   1060   57.3    0.1449   0.1772      0.1449
+   1059   1058   85.4    0.1229   0.1856      0.1229
+    894    895   41.4    0.1229   0.1439      0.1229
+    894    896   49.8    0.1335   0.1841      0.1335
+    898    899   45.1    0.1090   0.1450      0.1090
+    898    900   34.6    0.1529   0.1889      0.1529
+    883    882   87.9    0.1229   0.2933      0.1229
+    884    882   87.3    0.1335   0.3280      0.1335
+   3199   3200   39.0    0.1090   0.1106      0.1090
+   3199   3201   39.1    0.1090   0.1106      0.1090
+   3202   3203   50.1    0.1010   0.1005      0.1010
+   3202   3204   58.1    0.1010   0.1029      0.1010
+   3202   3205   60.6    0.1010   0.1029      0.1010
+   1658   1657   45.4    0.1010   0.1326      0.1010
+   1659   1657   34.7    0.1449   0.1808      0.1449
+   3951   3944   66.7    0.1522   0.2214      0.1522
+   3942   3940   32.1    0.1335   0.1456      0.1335
+    312    313   31.0    0.1229   0.1303      0.1229
+    312    314   37.5    0.1335   0.1483      0.1335
+    361    362   44.5    0.1090   0.1421      0.1090
+    361    363   33.9    0.1529   0.1866      0.1529
+    361    376   71.5    0.1522   0.2272      0.1522
+    974    976   54.1    0.1449   0.1914      0.1449
+    972    974   88.5    0.1335   0.1724      0.1335
+    974    975   40.1    0.1010   0.1168      0.1010
+    976    977   42.8    0.1090   0.1496      0.1090
+    976    996   63.2    0.1522   0.2261      0.1522
+    996    997   73.4    0.1229   0.1819      0.1229
+    996    998   87.6    0.1335   0.1963      0.1335
+   2346   2349   31.4    0.1529   0.1662      0.1529
+   2344   2345   89.2    0.1090   0.1750      0.1090
+   2344   2357   43.2    0.1522   0.1572      0.1522
+   2357   2358   38.0    0.1229   0.1358      0.1229
+   2357   2359   30.6    0.1335   0.1438      0.1335
+   2349   2352   35.3    0.1522   0.1759      0.1522
+   2352   2353   61.8    0.1229   0.1421      0.1229
+    376    377   87.8    0.1229   0.2390      0.1229
+    376    378   86.5    0.1335   0.2766      0.1335
+    378    379   55.7    0.1010   0.1532      0.1010
+    378    380   66.5    0.1449   0.2392      0.1449
+    380    381   55.7    0.1090   0.1893      0.1090
+    380    390   87.6    0.1522   0.3236      0.1522
+    382    383   49.2    0.1090   0.1557      0.1090
+    978    979   36.6    0.1090   0.1291      0.1090
+    978    980   36.2    0.1090   0.1291      0.1090
+    987    984   42.9    0.1463   0.1881      0.1463
+    990    989   87.0    0.1340   0.3052      0.1340
+    993    989   87.5    0.1340   0.3230      0.1340
+   1607   1605   30.1    0.1090   0.1180      0.1090
+    291    293   34.6    0.1335   0.1397      0.1335
+   2352   2354   51.4    0.1335   0.1563      0.1335
+   1656   1655   86.7    0.1229   0.1699      0.1229
+   1657   1655   85.8    0.1335   0.2012      0.1335
+   2346   2348   40.9    0.1090   0.1110      0.1090
+   1655   1640   59.7    0.1522   0.2036      0.1522
+   2346   2347   33.6    0.1090   0.1122      0.1090
+   3044   3046   34.6    0.1449   0.1832      0.1449
+    382    384   40.8    0.1410   0.1805      0.1410
+    382    386   35.9    0.1529   0.1900      0.1529
+   1073   1072   49.6    0.1250   0.1444      0.1250
+   1074   1072   87.8    0.1250   0.1587      0.1250
+    517    518   62.0    0.1010   0.1015      0.1010
+    517    519   64.6    0.1010   0.1008      0.1010
+    517    520   62.9    0.1010   0.1016      0.1010
+    892    891   45.2    0.1250   0.1345      0.1250
+    893    891   54.9    0.1250   0.1290      0.1250
+    988    987   60.1    0.1010   0.1541      0.1010
+    989    987   87.3    0.1340   0.3300      0.1340
+    291    292   48.8    0.1229   0.1326      0.1229
+    338    339   41.8    0.1010   0.1138      0.1010
+    334    337   50.1    0.1504   0.2068      0.1504
+   3042   3044   88.3    0.1335   0.1574      0.1335
+   3044   3045   35.6    0.1010   0.1046      0.1010
+   3046   3047   34.4    0.1090   0.1277      0.1090
+   3046   3061   49.1    0.1522   0.1777      0.1522
+   3061   3062   82.1    0.1229   0.1696      0.1229
+   3061   3063   88.7    0.1335   0.1822      0.1335
+   2294   2296   42.7    0.1335   0.1442      0.1335
+   3952   3951   87.5    0.1229   0.2111      0.1229
+   3953   3951   87.1    0.1335   0.2672      0.1335
+   3954   3953   64.5    0.1010   0.1388      0.1010
+   3955   3953   49.9    0.1449   0.1897      0.1449
+   4038   4037   30.2    0.1090   0.1181      0.1090
+    435    436   43.1    0.1229   0.1358      0.1229
+    330    332   48.5    0.1449   0.1901      0.1449
+    328    330   85.3    0.1335   0.1861      0.1335
+    316    328   38.6    0.1522   0.1838      0.1522
+    328    329   88.0    0.1229   0.2016      0.1229
+    330    331   38.5    0.1010   0.1303      0.1010
+    332    333   52.7    0.1090   0.1698      0.1090
+    332    345   87.0    0.1522   0.3395      0.1522
+   2274   2294   32.2    0.1522   0.1606      0.1522
+   2272   2274   31.0    0.1449   0.1565      0.1449
+   2274   2275   31.1    0.1090   0.1200      0.1090
+   2294   2295   50.4    0.1229   0.1321      0.1229
+   2314   2329   43.4    0.1522   0.1514      0.1522
+    435    437   45.7    0.1335   0.1446      0.1335
+    514    515   45.9    0.1090   0.1138      0.1090
+    514    516   45.0    0.1090   0.1143      0.1090
+    511    514   37.2    0.1529   0.1568      0.1529
+    486    487   39.7    0.1090   0.1026      0.1090
+   3360   3359   63.1    0.1010   0.1404      0.1010
+
+step 41: Water molecule starting at atom 59173 can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+    345    346   87.8    0.1229   0.2993      0.1229
+    345    347   87.0    0.1335   0.3355      0.1335
+    347    348   58.0    0.1010   0.1267      0.1010
+    347    349   39.1    0.1449   0.1787      0.1449
+    334    335   43.4    0.1090   0.1434      0.1090
+    334    336   50.3    0.1090   0.1521      0.1090
+    337    340   42.6    0.1370   0.1554      0.1370
+   1149   1146   54.3    0.1463   0.1989      0.1463
+   1150   1149   78.7    0.1010   0.1584      0.1010
+   1151   1149   87.0    0.1340   0.3294      0.1340
+   1153   1152   49.4    0.1010   0.1238      0.1010
+   1154   1152   49.7    0.1010   0.1246      0.1010
+   1152   1151   86.6    0.1340   0.2659      0.1340
+   1155   1151   86.8    0.1340   0.2815      0.1340
+   3361   3359   86.7    0.1340   0.3037      0.1340
+   3346   3344   31.8    0.1335   0.1433      0.1335
+   3333   3332   43.4    0.1010   0.1307      0.1010
+   3334   3332   33.3    0.1449   0.1755      0.1449
+   3331   3330   72.2    0.1229   0.1623      0.1229
+   3332   3330   86.0    0.1335   0.1729      0.1335
+   3330   3310   55.2    0.1522   0.1876      0.1522
+   1000   1002   51.4    0.1529   0.1860      0.1529
+    998   1000   59.4    0.1449   0.2196      0.1449
+   1000   1001   72.1    0.1090   0.1523      0.1090
+    453    454   33.6    0.1010   0.1040      0.1010
+    453    455   31.4    0.1010   0.1067      0.1010
+    452    453   63.7    0.1340   0.1750      0.1340
+    452    456   62.9    0.1340   0.1855      0.1340
+    456    457   35.8    0.1010   0.1236      0.1010
+   1156   1155   55.1    0.1010   0.1527      0.1010
+   1157   1155   52.8    0.1010   0.1497      0.1010
+   1089   1088   33.9    0.1090   0.1309      0.1090
+   1099   1088   58.0    0.1522   0.1990      0.1522
+   1100   1099   73.2    0.1229   0.1604      0.1229
+   1101   1099   80.3    0.1335   0.1736      0.1335
+   1085   1079   36.7    0.1522   0.1637      0.1522
+   3359   3356   41.5    0.1463   0.1752      0.1463
+     46     48   33.8    0.1449   0.1425      0.1449
+     44     46   69.0    0.1335   0.1922      0.1335
+     46     47   45.1    0.1010   0.1306      0.1010
+     48     49   43.3    0.1090   0.1150      0.1090
+     50     51   33.1    0.1090   0.1053      0.1090
+    456    458   37.0    0.1010   0.1204      0.1010
+    349    357   53.8    0.1522   0.1581      0.1522
+    357    358   52.6    0.1229   0.1538      0.1229
+    357    359   53.1    0.1335   0.1716      0.1335
+    351    352   44.3    0.1090   0.1153      0.1090
+    351    353   42.9    0.1090   0.1152      0.1090
+   1086   1085   46.9    0.1229   0.1384      0.1229
+   1087   1085   52.9    0.1335   0.1497      0.1335
+   1102   1101   42.9    0.1010   0.1319      0.1010
+   1103   1101   35.6    0.1449   0.1736      0.1449
+   1748   1745   44.2    0.1463   0.1747      0.1463
+   1755   1754   49.5    0.1010   0.1276      0.1010
+     72     75   39.5    0.1463   0.1776      0.1463
+     75     76   54.8    0.1010   0.1376      0.1010
+     75     77   85.9    0.1340   0.2210      0.1340
+     77     78   67.7    0.1340   0.2088      0.1340
+     78     79   34.4    0.1010   0.1160      0.1010
+     78     80   36.0    0.1010   0.1160      0.1010
+     77     81   70.0    0.1340   0.2063      0.1340
+    354    355   46.8    0.1250   0.1371      0.1250
+    354    356   62.6    0.1250   0.1272      0.1250
+    392    394   41.2    0.1449   0.1756      0.1449
+    390    392   88.7    0.1335   0.3200      0.1335
+    380    390   89.3    0.1522   0.2859      0.1522
+    390    391   89.4    0.1229   0.2954      0.1229
+    392    393   50.5    0.1010   0.1402      0.1010
+   1756   1754   49.5    0.1010   0.1280      0.1010
+   1752   1751   51.7    0.1010   0.1300      0.1010
+   1753   1751   51.2    0.1010   0.1321      0.1010
+   1751   1750   87.9    0.1340   0.2714      0.1340
+   1754   1750   81.4    0.1340   0.2782      0.1340
+   1749   1748   64.1    0.1010   0.1385      0.1010
+   1750   1748   87.6    0.1340   0.2940      0.1340
+     81     82   38.3    0.1010   0.1238      0.1010
+     81     83   39.9    0.1010   0.1218      0.1010
+     48     60   87.0    0.1522   0.3249      0.1522
+     29     44   37.5    0.1522   0.1780      0.1522
+     44     45   43.3    0.1229   0.1363      0.1229
+     60     61   88.4    0.1229   0.3330      0.1229
+    405    406   36.4    0.1229   0.1325      0.1229
+    435    437   44.5    0.1335   0.1352      0.1335
+    439    459   49.9    0.1522   0.1778      0.1522
+    459    460   59.4    0.1229   0.1492      0.1229
+    459    461   62.9    0.1335   0.1627      0.1335
+    441    442   36.4    0.1090   0.1169      0.1090
+   1720   1719   41.2    0.1229   0.1359      0.1229
+   1721   1719   30.8    0.1335   0.1350      0.1335
+   1613   1612   38.8    0.1010   0.1098      0.1010
+   1614   1612   46.6    0.1010   0.1118      0.1010
+   1615   1612   42.2    0.1010   0.1109      0.1010
+     60     62   87.8    0.1335   0.3816      0.1335
+     62     63   72.8    0.1010   0.1374      0.1010
+     62     64   59.4    0.1449   0.1776      0.1449
+     84     85   34.4    0.1229   0.1345      0.1229
+     84     86   30.6    0.1335   0.1278      0.1335
+     86     88   40.9    0.1449   0.1901      0.1449
+     88     89   48.7    0.1090   0.1548      0.1090
+    450    451   34.3    0.1010   0.1183      0.1010
+    450    452   66.3    0.1340   0.1819      0.1340
+   4050   4052   36.1    0.1335   0.1401      0.1335
+   4033   4035   43.0    0.1449   0.1556      0.1449
+   4035   4036   38.9    0.1090   0.1184      0.1090
+   4050   4051   51.6    0.1229   0.1293      0.1229
+   4073   4074   38.0    0.1010   0.1101      0.1010
+   1623   1622   42.0    0.1229   0.1409      0.1229
+   1624   1622   53.3    0.1335   0.1416      0.1335
+   1626   1625   38.2    0.1090   0.1271      0.1090
+   1636   1625   51.8    0.1522   0.1790      0.1522
+   1637   1636   45.7    0.1229   0.1372      0.1229
+   1638   1636   41.4    0.1335   0.1451      0.1335
+   1617   1616   40.3    0.1090   0.1257      0.1090
+     88    108   86.7    0.1522   0.2549      0.1522
+     90     91   38.5    0.1090   0.1333      0.1090
+     90     92   40.6    0.1090   0.1343      0.1090
+     90     93   36.2    0.1495   0.1816      0.1495
+     93     94   35.3    0.1352   0.1483      0.1352
+     96     99   35.5    0.1419   0.1484      0.1419
+     97     98   31.7    0.1010   0.1041      0.1010
+   4073   4075   33.2    0.1449   0.1694      0.1449
+   4093   4094   41.9    0.1090   0.1320      0.1090
+   4095   4093   44.3    0.1090   0.1340      0.1090
+   4096   4093   40.5    0.1504   0.1841      0.1504
+   4098   4097   31.2    0.1010   0.1090      0.1010
+   4099   4096   34.4    0.1370   0.1493      0.1370
+   1622   1616   47.8    0.1522   0.1599      0.1522
+   1686   1683   74.5    0.1463   0.2199      0.1463
+   1558   1560   36.4    0.1529   0.1978      0.1529
+   1558   1573   86.6    0.1522   0.2785      0.1522
+   1554   1556   52.7    0.1335   0.1683      0.1335
+   1537   1554   37.1    0.1522   0.1664      0.1522
+   1554   1555   36.7    0.1229   0.1352      0.1229
+   1556   1557   36.7    0.1010   0.1192      0.1010
+   4089   4091   55.6    0.1449   0.1955      0.1449
+   4087   4089   56.2    0.1335   0.1575      0.1335
+   4075   4076   43.9    0.1090   0.1350      0.1090
+   4075   4077   33.8    0.1529   0.1748      0.1529
+   4087   4088   87.4    0.1229   0.1686      0.1229
+   4091   4092   52.2    0.1090   0.1689      0.1090
+   4104   4091   68.0    0.1522   0.2273      0.1522
+   1690   1689   54.1    0.1010   0.1317      0.1010
+   1691   1689   51.4    0.1010   0.1305      0.1010
+   1687   1686   87.7    0.1010   0.2043      0.1010
+   1688   1686   87.6    0.1340   0.3879      0.1340
+   1689   1688   87.3    0.1340   0.2834      0.1340
+   1692   1688   81.8    0.1340   0.2902      0.1340
+   1693   1692   54.6    0.1010   0.1174      0.1010
+   1573   1575   87.1    0.1335   0.3336      0.1335
+   1575   1576   76.0    0.1010   0.1295      0.1010
+   1575   1577   53.1    0.1449   0.1969      0.1449
+    126    127   34.5    0.1090   0.1270      0.1090
+    126    146   45.0    0.1522   0.1795      0.1522
+    122    123   30.1    0.1229   0.1343      0.1229
+    461    462   39.2    0.1010   0.1237      0.1010
+    463    480   53.0    0.1522   0.2089      0.1522
+    480    481   85.4    0.1229   0.1710      0.1229
+    480    482   85.5    0.1335   0.2520      0.1335
+    482    483   46.9    0.1010   0.1333      0.1010
+    482    484   59.3    0.1449   0.1862      0.1449
+   1694   1692   53.6    0.1010   0.1193      0.1010
+    122    124   41.5    0.1335   0.1570      0.1335
+    110    111   51.4    0.1010   0.1390      0.1010
+    110    112   40.9    0.1449   0.1847      0.1449
+    108    109   87.7    0.1229   0.2451      0.1229
+    108    110   86.8    0.1335   0.2786      0.1335
+    795    797   35.2    0.1335   0.1420      0.1335
+    784    795   33.6    0.1522   0.1575      0.1522
+    484    485   34.7    0.1090   0.0862      0.1090
+    484    499   87.4    0.1522   0.1922      0.1522
+   4114   4113   89.2    0.1250   0.3019      0.1250
+   4115   4113   89.3    0.1250   0.3077      0.1250
+   4119   4118   43.5    0.1010   0.1257      0.1010
+   4118   4116   49.2    0.1335   0.1783      0.1335
+    795    796   46.1    0.1229   0.1302      0.1229
+    809    810   35.2    0.1229   0.1240      0.1229
+   1558   1559   44.8    0.1090   0.1440      0.1090
+   1577   1578   34.4    0.1090   0.1202      0.1090
+   1577   1595   32.8    0.1522   0.1475      0.1522
+   4105   4104   86.3    0.1229   0.1957      0.1229
+   4106   4104   83.6    0.1335   0.1715      0.1335
+   4140   4139   36.0    0.1090   0.1392      0.1090
+   4149   4139   51.6    0.1522   0.2040      0.1522
+   4152   4151   39.1    0.1010   0.1305      0.1010
+   4150   4149   69.6    0.1229   0.1584      0.1229
+   1573   1574   87.9    0.1229   0.2909      0.1229
+   1595   1596   52.0    0.1229   0.1316      0.1229
+    185    192   30.1    0.1522   0.1608      0.1522
+    851    852   31.3    0.1010   0.1101      0.1010
+    854    853   40.9    0.1090   0.1413      0.1090
+   4151   4149   75.7    0.1335   0.1630      0.1335
+    525    527   39.5    0.1529   0.1708      0.1529
+    503    521   42.9    0.1522   0.1536      0.1522
+    501    503   57.7    0.1449   0.1773      0.1449
+    503    504   54.4    0.1090   0.1376      0.1090
+    503    505   42.3    0.1529   0.1730      0.1529
+    855    853   34.3    0.1529   0.1842      0.1529
+    853    865   47.0    0.1522   0.1975      0.1522
+    865    867   85.4    0.1335   0.2017      0.1335
+    867    868   41.3    0.1010   0.1351      0.1010
+    867    869   48.2    0.1449   0.1955      0.1449
+    869    870   51.0    0.1090   0.1676      0.1090
+    521    522   73.3    0.1229   0.1268      0.1229
+    523    524   68.0    0.1010   0.1086      0.1010
+    525    526   45.5    0.1090   0.1291      0.1090
+    535    537   88.1    0.1250   0.1475      0.1250
+   3415   3414   51.1    0.1229   0.1407      0.1229
+    871    872   43.3    0.1090   0.1447      0.1090
+    871    873   48.5    0.1090   0.1502      0.1090
+    871    874   46.4    0.1504   0.1910      0.1504
+    869    882   87.2    0.1522   0.3302      0.1522
+    882    883   88.0    0.1229   0.2931      0.1229
+    882    884   87.3    0.1335   0.3278      0.1335
+   3416   3414   50.1    0.1335   0.1520      0.1335
+   3403   3405   40.2    0.1335   0.1472      0.1335
+   3388   3403   34.4    0.1522   0.1616      0.1522
+   3414   3407   37.0    0.1522   0.1665      0.1522
+   3416   3417   39.4    0.1010   0.1027      0.1010
+   3403   3404   43.6    0.1229   0.1333      0.1229
+    865    866   87.7    0.1229   0.2088      0.1229
+    899    898   45.1    0.1090   0.1450      0.1090
+    900    898   34.4    0.1529   0.1888      0.1529
+    913    898   73.2    0.1522   0.2191      0.1522
+    914    913   87.2    0.1229   0.2116      0.1229
+   3451   3450   35.3    0.1229   0.1281      0.1229
+   3466   3454   31.1    0.1522   0.1623      0.1522
+   3501   3500   32.6    0.1090   0.1213      0.1090
+   4121   4120   42.5    0.1090   0.1383      0.1090
+   4122   4120   32.9    0.1529   0.1895      0.1529
+    915    913   86.1    0.1335   0.2369      0.1335
+    916    915   48.5    0.1010   0.1275      0.1010
+    917    915   47.2    0.1449   0.1818      0.1449
+    918    917   36.4    0.1090   0.1331      0.1090
+    927    917   45.6    0.1522   0.1916      0.1522
+    928    927   65.3    0.1229   0.1416      0.1229
+   4135   4120   85.8    0.1522   0.2328      0.1522
+   4136   4135   87.5    0.1229   0.2475      0.1229
+   4137   4135   86.6    0.1335   0.2824      0.1335
+   4138   4137   50.9    0.1010   0.1402      0.1010
+   4139   4137   48.1    0.1449   0.1965      0.1449
+   4274   4273   43.5    0.1090   0.1124      0.1090
+    929    927   57.0    0.1335   0.1531      0.1335
+   1599   1609   43.9    0.1522   0.1415      0.1522
+   1597   1599   35.0    0.1449   0.1811      0.1449
+   1597   1598   86.1    0.1010   0.1237      0.1010
+   1599   1600   56.3    0.1090   0.1465      0.1090
+   1599   1601   52.3    0.1529   0.1848      0.1529
+   4275   4273   42.9    0.1090   0.1123      0.1090
+   4277   4276   51.1    0.1010   0.0993      0.1010
+   4278   4276   63.1    0.1010   0.1045      0.1010
+   4279   4276   68.9    0.1010   0.1042      0.1010
+  15334  15333   30.9    0.1435   0.1408      0.1435
+   1601   1602   31.1    0.1090   0.1195      0.1090
+   1605   1607   30.1    0.1090   0.1180      0.1090
+   1610   1609   37.2    0.1250   0.1416      0.1250
+   1611   1609   88.3    0.1250   0.1956      0.1250
+   1052   1051   33.5    0.1090   0.1108      0.1090
+   1053   1051   33.6    0.1090   0.1107      0.1090
+   1055   1054   41.4    0.1010   0.1020      0.1010
+   1056   1054   48.5    0.1010   0.1042      0.1010
+   3427   3426   33.4    0.1229   0.1271      0.1229
+   3428   3426   33.0    0.1335   0.1372      0.1335
+   4273   4270   35.8    0.1529   0.1549      0.1529
+   2734   2733   43.4    0.1090   0.1448      0.1090
+   2735   2733   34.3    0.1529   0.1922      0.1529
+   2745   2733   79.2    0.1522   0.2183      0.1522
+   2732   2731   32.7    0.1010   0.1183      0.1010
+   1057   1054   52.0    0.1010   0.1043      0.1010
+    192    193   41.4    0.1229   0.1324      0.1229
+    192    194   41.8    0.1335   0.1427      0.1335
+    194    195   30.3    0.1010   0.1015      0.1010
+    230    232   37.1    0.1449   0.1773      0.1449
+   2731   2729   43.7    0.1335   0.1646      0.1335
+   2710   2712   61.4    0.1335   0.1559      0.1335
+   2699   2710   43.6    0.1522   0.1705      0.1522
+   2710   2711   58.5    0.1229   0.1440      0.1229
+   2712   2713   33.8    0.1010   0.1156      0.1010
+    232    233   34.1    0.1090   0.1345      0.1090
+    232    244   52.3    0.1522   0.1921      0.1522
+    244    245   72.2    0.1229   0.1626      0.1229
+    244    246   79.6    0.1335   0.1672      0.1335
+    888    889   40.4    0.1090   0.1141      0.1090
+    884    886   40.9    0.1449   0.1848      0.1449
+    884    885   53.3    0.1010   0.1287      0.1010
+    765    750   30.7    0.1522   0.1621      0.1522
+   1589   1588   58.5    0.1090   0.1144      0.1090
+   1590   1588   58.4    0.1090   0.1146      0.1090
+   1588   1585   44.4    0.1529   0.1574      0.1529
+   1592   1591   87.4    0.1010   0.1079      0.1010
+   1593   1591   87.6    0.1010   0.1158      0.1010
+    891    892   45.2    0.1250   0.1345      0.1250
+    891    893   54.9    0.1250   0.1290      0.1250
+    888    890   40.5    0.1090   0.1139      0.1090
+    886    894   40.8    0.1522   0.1572      0.1522
+    895    894   41.4    0.1229   0.1439      0.1229
+    896    894   49.9    0.1335   0.1841      0.1335
+   1594   1591   87.9    0.1010   0.1175      0.1010
+    730    729   43.2    0.1229   0.1358      0.1229
+    731    729   51.7    0.1335   0.1481      0.1335
+    732    731   32.2    0.1010   0.1037      0.1010
+    769    767   31.3    0.1449   0.1579      0.1449
+    958    956   30.8    0.1335   0.1488      0.1335
+    959    958   36.8    0.1010   0.1136      0.1010
+    975    974   43.1    0.1010   0.1280      0.1010
+    766    765   47.7    0.1229   0.1358      0.1229
+    767    765   42.0    0.1335   0.1452      0.1335
+    781    769   34.1    0.1522   0.1680      0.1522
+   1436   1435   41.8    0.1090   0.1400      0.1090
+   1437   1435   32.4    0.1529   0.1820      0.1529
+    976    974   52.1    0.1449   0.1935      0.1449
+    979    978   37.3    0.1090   0.1311      0.1090
+    980    978   36.9    0.1090   0.1311      0.1090
+    977    976   43.9    0.1090   0.1555      0.1090
+    996    976   63.7    0.1522   0.2393      0.1522
+    997    996   73.3    0.1229   0.1882      0.1229
+   1450   1435   60.0    0.1522   0.2044      0.1522
+   1451   1450   80.2    0.1229   0.1872      0.1229
+   1452   1450   85.5    0.1335   0.1926      0.1335
+   1509   1497   31.7    0.1522   0.1599      0.1522
+   1510   1509   46.9    0.1229   0.1323      0.1229
+    998    996   85.8    0.1335   0.2179      0.1335
+    984    987   42.9    0.1463   0.1881      0.1463
+    987    988   60.1    0.1010   0.1541      0.1010
+    987    989   87.3    0.1340   0.3300      0.1340
+    989    990   87.0    0.1340   0.3052      0.1340
+    990    991   79.4    0.1010   0.1082      0.1010
+   1511   1509   40.7    0.1335   0.1419      0.1335
+    782    781   50.0    0.1229   0.1335      0.1229
+    783    781   39.9    0.1335   0.1437      0.1335
+    872    871   40.6    0.1090   0.1415      0.1090
+    873    871   47.1    0.1090   0.1487      0.1090
+    990    992   84.8    0.1010   0.1065      0.1010
+    989    993   87.5    0.1340   0.3230      0.1340
+    993    994   57.3    0.1010   0.1386      0.1010
+    993    995   61.1    0.1010   0.1300      0.1010
+    291    292   46.1    0.1229   0.1286      0.1229
+    874    871   46.6    0.1504   0.2001      0.1504
+   1433   1431   38.3    0.1335   0.1618      0.1335
+   1480   1479   31.3    0.1229   0.1271      0.1229
+    876    875   31.8    0.1010   0.1097      0.1010
+    877    874   36.4    0.1370   0.1516      0.1370
+    291    293   31.5    0.1335   0.1373      0.1335
+    330    331   38.9    0.1010   0.1318      0.1010
+    330    332   48.1    0.1449   0.1902      0.1449
+    334    335   43.4    0.1090   0.1434      0.1090
+    334    336   50.3    0.1090   0.1521      0.1090
+    334    337   50.1    0.1504   0.2069      0.1504
+   1551   1549   52.8    0.1400   0.1432      0.1400
+   1553   1552   69.9    0.0945   0.1316      0.0945
+   1552   1551   40.4    0.1364   0.1513      0.1364
+   1547   1543   38.8    0.1400   0.1415      0.1400
+    991    990   79.4    0.1010   0.1082      0.1010
+    992    990   84.8    0.1010   0.1065      0.1010
+    338    339   41.8    0.1010   0.1138      0.1010
+    337    340   42.6    0.1370   0.1554      0.1370
+    332    333   52.7    0.1090   0.1701      0.1090
+    332    345   87.0    0.1522   0.3399      0.1522
+   1001   1000   66.5    0.1090   0.1317      0.1090
+   1002   1000   44.5    0.1529   0.1748      0.1529
+    994    993   57.3    0.1010   0.1386      0.1010
+    995    993   61.1    0.1010   0.1300      0.1010
+   4162   4161   43.7    0.1250   0.1320      0.1250
+   4213   4212   33.5    0.1010   0.1089      0.1010
+   4214   4212   32.1    0.1010   0.1094      0.1010
+   4210   4209   39.0    0.1010   0.1245      0.1010
+    999    998   54.3    0.1010   0.1545      0.1010
+   1000    998   51.0    0.1449   0.1954      0.1449
+   1065   1064   39.7    0.1090   0.1412      0.1090
+   1066   1064   31.8    0.1410   0.1675      0.1410
+   1063   1062   72.5    0.1090   0.1272      0.1090
+   1064   1062   51.1    0.1529   0.1639      0.1529
+   4211   4209   70.4    0.1340   0.1878      0.1340
+   4212   4211   65.3    0.1340   0.1825      0.1340
+   4215   4211   63.0    0.1340   0.1817      0.1340
+   4216   4215   32.8    0.1010   0.1173      0.1010
+   4113   4110   87.7    0.1522   0.2713      0.1522
+    351    352   44.3    0.1090   0.1152      0.1090
+    351    353   42.9    0.1090   0.1152      0.1090
+    354    355   46.8    0.1250   0.1371      0.1250
+    354    356   62.6    0.1250   0.1272      0.1250
+    347    348   58.0    0.1010   0.1268      0.1010
+   3563   3562   34.8    0.1080   0.1134      0.1080
+   4165   4164   57.7    0.1229   0.1352      0.1229
+   4166   4164   57.5    0.1335   0.1562      0.1335
+   4164   4153   41.5    0.1522   0.1825      0.1522
+   3480   3469   33.3    0.1522   0.1636      0.1522
+   3481   3480   42.5    0.1229   0.1320      0.1229
+    347    349   38.7    0.1449   0.1784      0.1449
+    349    357   54.0    0.1522   0.1623      0.1522
+    357    358   51.6    0.1229   0.1545      0.1229
+    357    359   55.7    0.1335   0.1945      0.1335
+    345    346   87.8    0.1229   0.2993      0.1229
+    345    347   87.0    0.1335   0.3356      0.1335
+   3482   3480   41.3    0.1335   0.1468      0.1335
+   3467   3466   41.5    0.1229   0.1303      0.1229
+   3468   3466   37.0    0.1335   0.1415      0.1335
+   3497   3496   36.3    0.1010   0.1101      0.1010
+    392    393   50.9    0.1010   0.1430      0.1010
+    392    394   41.3    0.1449   0.1779      0.1449
+    390    391   88.6    0.1229   0.3018      0.1229
+    390    392   87.9    0.1335   0.3278      0.1335
+    450    451   34.3    0.1010   0.1183      0.1010
+    450    452   66.3    0.1340   0.1819      0.1340
+   3498   3496   43.4    0.1449   0.1557      0.1449
+   3499   3498   41.1    0.1090   0.1194      0.1090
+   3514   3513   57.6    0.1229   0.1332      0.1229
+   3515   3513   41.7    0.1335   0.1401      0.1335
+   4167   4166   32.4    0.1010   0.1147      0.1010
+   4168   4166   31.0    0.1449   0.1606      0.1449
+    452    453   63.7    0.1340   0.1750      0.1340
+    453    454   33.6    0.1010   0.1040      0.1010
+    453    455   31.4    0.1010   0.1067      0.1010
+    452    456   62.9    0.1340   0.1855      0.1340
+    456    457   35.8    0.1010   0.1236      0.1010
+    456    458   37.0    0.1010   0.1204      0.1010
+   4179   4178   33.9    0.1229   0.1303      0.1229
+   4180   4178   36.2    0.1335   0.1531      0.1335
+   4183   4182   32.8    0.1090   0.1303      0.1090
+   4194   4182   59.3    0.1522   0.2014      0.1522
+   4195   4194   86.3    0.1229   0.1832      0.1229
+   4196   4194   86.2    0.1335   0.1905      0.1335
+   4004   4003   31.3    0.1229   0.1268      0.1229
+   4005   4003   33.8    0.1335   0.1386      0.1335
+   4036   4035   37.1    0.1090   0.1179      0.1090
+   4051   4050   50.9    0.1229   0.1286      0.1229
+   4052   4050   35.5    0.1335   0.1399      0.1335
+   4197   4196   39.2    0.1010   0.1245      0.1010
+   4218   4198   32.5    0.1522   0.1774      0.1522
+   4219   4218   33.1    0.1229   0.1296      0.1229
+   2803   2802   34.0    0.1229   0.1270      0.1229
+   3495   3494   51.6    0.1229   0.1385      0.1229
+   4093   4094   41.9    0.1090   0.1320      0.1090
+   4091   4104   68.1    0.1522   0.2265      0.1522
+   4104   4105   86.4    0.1229   0.1943      0.1229
+   4104   4106   84.5    0.1335   0.1719      0.1335
+   4093   4095   44.3    0.1090   0.1340      0.1090
+   3496   3494   36.0    0.1335   0.1450      0.1335
+   4261   4260   86.3    0.1010   0.1729      0.1010
+   4262   4260   66.1    0.1449   0.2416      0.1449
+   4263   4262   59.7    0.1090   0.1466      0.1090
+   4264   4262   43.6    0.1529   0.1788      0.1529
+   4280   4262   45.2    0.1522   0.1375      0.1522
+   4093   4096   40.5    0.1504   0.1841      0.1504
+   4097   4098   31.2    0.1010   0.1090      0.1010
+   4096   4099   34.4    0.1370   0.1493      0.1370
+    409    419   50.8    0.1522   0.1715      0.1522
+    405    406   35.0    0.1229   0.1317      0.1229
+    419    420   64.9    0.1229   0.1475      0.1229
+   4265   4264   32.7    0.1090   0.1349      0.1090
+   2828   2829   49.6    0.1010   0.1263      0.1010
+   2824   2828   86.6    0.1340   0.2637      0.1340
+   2824   2825   86.8    0.1340   0.2725      0.1340
+   2825   2826   50.7    0.1010   0.1385      0.1010
+   2825   2827   49.1    0.1010   0.1379      0.1010
+    419    421   59.4    0.1335   0.1603      0.1335
+    461    462   39.2    0.1010   0.1238      0.1010
+    441    442   36.6    0.1090   0.1173      0.1090
+    439    459   50.4    0.1522   0.1806      0.1522
+    459    460   59.3    0.1229   0.1493      0.1229
+    459    461   62.9    0.1335   0.1627      0.1335
+   2828   2830   44.9    0.1010   0.1324      0.1010
+   2823   2822   59.9    0.1010   0.1405      0.1010
+   2822   2824   86.7    0.1340   0.2928      0.1340
+   2746   2745   87.5    0.1229   0.2176      0.1229
+   2747   2745   86.6    0.1335   0.2383      0.1335
+   2748   2747   43.9    0.1010   0.1210      0.1010
+   4032   4031   45.2    0.1229   0.1326      0.1229
+   4034   4033   31.8    0.1010   0.1085      0.1010
+   4035   4033   39.5    0.1449   0.1539      0.1449
+   4074   4073   38.0    0.1010   0.1102      0.1010
+   4075   4073   33.1    0.1449   0.1694      0.1449
+   2747   2749   34.0    0.1449   0.1629      0.1449
+   2757   2760   35.3    0.1463   0.1458      0.1463
+   2796   2795   48.5    0.1010   0.1407      0.1010
+   2797   2795   38.1    0.1449   0.1831      0.1449
+   2794   2793   87.1    0.1229   0.1741      0.1229
+   4076   4075   43.9    0.1090   0.1350      0.1090
+   4077   4075   33.7    0.1529   0.1749      0.1529
+   4089   4091   55.6    0.1449   0.1953      0.1449
+   4108   4109   30.4    0.1090   0.1300      0.1090
+   4108   4116   37.7    0.1522   0.1818      0.1522
+   4088   4087   87.4    0.1229   0.1686      0.1229
+   2795   2793   86.1    0.1335   0.1990      0.1335
+   2771   2773   31.6    0.1449   0.1742      0.1449
+   2773   2774   33.9    0.1090   0.1320      0.1090
+   2793   2773   61.9    0.1522   0.1995      0.1522
+    671    674   46.2    0.1463   0.1834      0.1463
+    674    676   88.0    0.1340   0.3223      0.1340
+   4089   4087   56.2    0.1335   0.1575      0.1335
+   4091   4092   52.1    0.1090   0.1687      0.1090
+    482    483   46.9    0.1010   0.1396      0.1010
+    482    484   54.7    0.1449   0.1814      0.1449
+    463    480   53.0    0.1522   0.2100      0.1522
+    676    677   82.0    0.1340   0.3006      0.1340
+    677    678   49.3    0.1010   0.1262      0.1010
+    677    679   56.0    0.1010   0.1193      0.1010
+    676    680   87.9    0.1340   0.3166      0.1340
+    680    682   87.1    0.1010   0.1308      0.1010
+    484    485   41.2    0.1090   0.1026      0.1090
+    484    499   86.0    0.1522   0.3254      0.1522
+    480    481   85.0    0.1229   0.1712      0.1229
+    480    482   84.9    0.1335   0.2640      0.1335
+    499    500   87.9    0.1229   0.3343      0.1229
+    499    501   87.3    0.1335   0.3938      0.1335
+    729    722   35.0    0.1522   0.1652      0.1522
+   1434   1433   30.3    0.1010   0.1124      0.1010
+   1453   1452   43.1    0.1010   0.1218      0.1010
+   1454   1452   45.2    0.1449   0.1776      0.1449
+   1455   1454   38.9    0.1090   0.1357      0.1090
+    501    502   85.9    0.1010   0.1484      0.1010
+    501    503   59.3    0.1449   0.2163      0.1449
+    503    504   45.4    0.1090   0.1238      0.1090
+    503    505   32.0    0.1529   0.1636      0.1529
+    523    524   67.4    0.1010   0.1078      0.1010
+    525    526   45.5    0.1090   0.1290      0.1090
+   1464   1454   46.3    0.1522   0.1902      0.1522
+   1465   1464   68.9    0.1229   0.1411      0.1229
+   1466   1464   52.6    0.1335   0.1540      0.1335
+   2147   2146   39.9    0.1250   0.1506      0.1250
+   2148   2146   87.6    0.1250   0.2001      0.1250
+  10602  10601   34.4    0.1435   0.1443      0.1435
+    525    527   39.4    0.1529   0.1708      0.1529
+    535    537   88.1    0.1250   0.1475      0.1250
+    521    522   71.0    0.1229   0.1213      0.1229
+   3407   3414   37.0    0.1522   0.1665      0.1522
+   3414   3415   51.1    0.1229   0.1407      0.1229
+   1422   1421   43.1    0.1010   0.1295      0.1010
+   1423   1421   38.5    0.1449   0.1844      0.1449
+   1420   1419   86.8    0.1229   0.2172      0.1229
+   1421   1419   86.0    0.1335   0.2397      0.1335
+   1474   1473   31.0    0.1090   0.1078      0.1090
+   3414   3416   50.1    0.1335   0.1520      0.1335
+   3416   3417   39.4    0.1010   0.1027      0.1010
+   3403   3404   43.6    0.1229   0.1333      0.1229
+   3405   3403   40.2    0.1335   0.1472      0.1335
+   3403   3388   34.4    0.1522   0.1616      0.1522
+   1477   1476   45.8    0.1250   0.1303      0.1250
+   1478   1476   46.7    0.1250   0.1301      0.1250
+   1524   1521   35.6    0.1463   0.1809      0.1463
+   1525   1524   50.3    0.1010   0.1425      0.1010
+   1526   1524   87.0    0.1340   0.2886      0.1340
+   1528   1527   53.9    0.1010   0.1347      0.1010
+   3454   3466   31.0    0.1522   0.1600      0.1522
+   3466   3467   40.8    0.1229   0.1266      0.1229
+   3466   3468   37.7    0.1335   0.1376      0.1335
+   4120   4122   32.9    0.1529   0.1895      0.1529
+   4116   4118   48.4    0.1335   0.1721      0.1335
+   4118   4119   44.0    0.1010   0.1259      0.1010
+   1529   1527   58.5    0.1010   0.1362      0.1010
+   1527   1526   87.0    0.1340   0.2892      0.1340
+   1530   1526   86.7    0.1340   0.2673      0.1340
+   1531   1530   47.6    0.1010   0.1203      0.1010
+   1532   1530   46.9    0.1010   0.1239      0.1010
+   4120   4121   42.6    0.1090   0.1384      0.1090
+   4120   4135   85.8    0.1522   0.2330      0.1522
+   4135   4136   87.5    0.1229   0.2475      0.1229
+   4135   4137   86.6    0.1335   0.2824      0.1335
+   4137   4138   50.9    0.1010   0.1402      0.1010
+   4137   4139   48.1    0.1449   0.1963      0.1449
+   3557   3556   58.6    0.1090   0.1495      0.1090
+   3558   3556   62.3    0.1090   0.1565      0.1090
+   3559   3556   66.0    0.1504   0.2568      0.1504
+   3561   3560   33.2    0.1010   0.1169      0.1010
+   3560   3559   58.5    0.1381   0.1884      0.1381
+   3562   3559   66.8    0.1370   0.1966      0.1370
+   4139   4140   35.9    0.1090   0.1391      0.1090
+   4139   4149   51.7    0.1522   0.2037      0.1522
+   4149   4150   69.6    0.1229   0.1577      0.1229
+   4149   4151   76.2    0.1335   0.1627      0.1335
+   4151   4152   40.5    0.1010   0.1315      0.1010
+   4153   4164   41.0    0.1522   0.1715      0.1522
+   3536   3534   33.3    0.1335   0.1478      0.1335
+   3553   3552   40.5    0.1010   0.1377      0.1010
+   3554   3552   70.1    0.1449   0.1988      0.1449
+   3570   3569   58.8    0.1011   0.1251      0.1010
+   3571   3569   32.3    0.1451   0.1726      0.1449
+   3551   3550   87.6    0.1229   0.2261      0.1229
+  15333  15334   32.2    0.1435   0.1419      0.1435
+   3426   3427   33.4    0.1229   0.1271      0.1229
+   3426   3428   33.0    0.1335   0.1372      0.1335
+   3450   3451   35.3    0.1229   0.1281      0.1229
+   2699   2710   43.6    0.1522   0.1705      0.1522
+   3552   3550   84.7    0.1335   0.2238      0.1335
+   3555   3554   59.9    0.1090   0.1967      0.1090
+   3567   3554   87.1    0.1522   0.3340      0.1522
+   3568   3567   87.6    0.1229   0.2718      0.1229
+   3569   3567   87.4    0.1336   0.2994      0.1335
+   4239   4222   52.6    0.1522   0.1985      0.1522
+   2712   2713   33.8    0.1010   0.1156      0.1010
+   2710   2712   61.4    0.1335   0.1558      0.1335
+   2710   2711   58.5    0.1229   0.1440      0.1229
+   2729   2731   36.8    0.1335   0.1402      0.1335
+   4240   4239   60.6    0.1229   0.1678      0.1229
+   4241   4239   84.4    0.1335   0.1959      0.1335
+   4287   4286   33.9    0.1090   0.1253      0.1090
+   4283   4282   85.6    0.1010   0.1245      0.1010
+   4284   4282   44.0    0.1449   0.1775      0.1449
+   4285   4284   51.7    0.1090   0.1257      0.1090
+   4286   4284   46.9    0.1529   0.1643      0.1529
+   3537   3536   35.6    0.1010   0.1116      0.1010
+   3538   3536   32.5    0.1449   0.1807      0.1449
+   3539   3538   46.8    0.1090   0.1516      0.1090
+   3540   3538   39.0    0.1529   0.1923      0.1529
+   3550   3538   51.7    0.1522   0.2091      0.1522
+   4242   4241   43.1    0.1010   0.1170      0.1010
+   4244   4243   41.5    0.1090   0.1327      0.1090
+   4245   4243   33.3    0.1529   0.1905      0.1529
+   4258   4243   86.1    0.1522   0.3014      0.1522
+   4259   4258   87.7    0.1229   0.3240      0.1229
+   4260   4258   87.0    0.1335   0.3792      0.1335
+   4281   4280   85.3    0.1229   0.1668      0.1229
+   4282   4280   30.3    0.1335   0.1610      0.1335
+   2822   2819   40.9    0.1463   0.1807      0.1463
+    680    681   65.5    0.1010   0.1381      0.1010
+    674    675   66.6    0.1010   0.1481      0.1010
+    648    647   48.8    0.1010   0.1416      0.1010
+    649    647   37.7    0.1449   0.1824      0.1449
+    625    645   67.6    0.1522   0.2025      0.1522
+    599    601   30.5    0.1449   0.1672      0.1449
+    625    626   33.7    0.1090   0.1297      0.1090
+    630    633   32.3    0.1459   0.1546      0.1459
+    646    645   87.2    0.1229   0.1907      0.1229
+    647    645   86.2    0.1335   0.2127      0.1335
+   2096   2095   36.6    0.1090   0.1092      0.1090
+   2110   2095   86.6    0.1522   0.3216      0.1522
+   2111   2110   88.1    0.1229   0.3430      0.1229
+   2112   2110   87.6    0.1335   0.4134      0.1335
+   2113   2112   87.0    0.1010   0.1824      0.1010
+   2114   2112   65.5    0.1449   0.2586      0.1449
+   2115   2114   60.7    0.1090   0.1590      0.1090
+   2116   2114   47.9    0.1529   0.1907      0.1529
+   2132   2114   62.8    0.1522   0.1398      0.1522
+   2133   2132   84.6    0.1229   0.1602      0.1229
+   2134   2132   32.0    0.1335   0.1681      0.1335
+   1333   1332   55.1    0.1229   0.1349      0.1229
+   1334   1332   44.2    0.1335   0.1460      0.1335
+   1346   1336   31.9    0.1522   0.1639      0.1522
+   1347   1346   40.9    0.1229   0.1294      0.1229
+   1366   1365   38.1    0.1229   0.1238      0.1229
+   1391   1390   30.1    0.1090   0.1173      0.1090
+   1406   1404   46.1    0.1449   0.1995      0.1449
+   1403   1402   52.1    0.1229   0.1460      0.1229
+   1404   1402   37.7    0.1335   0.1333      0.1335
+   2094   2093   42.8    0.1010   0.1248      0.1010
+   2095   2093   37.2    0.1449   0.1594      0.1449
+   2075   2074   31.0    0.1090   0.1290      0.1090
+   2091   2074   51.5    0.1522   0.2027      0.1522
+   2073   2072   33.5    0.1010   0.1234      0.1010
+   2092   2091   57.9    0.1229   0.1638      0.1229
+   2093   2091   84.2    0.1335   0.2062      0.1335
+   2135   2134   85.6    0.1010   0.1502      0.1010
+   2136   2134   39.4    0.1449   0.1987      0.1449
+   2137   2136   61.9    0.1090   0.1764      0.1090
+   2138   2136   56.0    0.1529   0.2052      0.1529
+   2146   2136   84.3    0.1522   0.1386      0.1522
+   1332   1321   36.4    0.1522   0.1630      0.1522
+   1409   1408   34.7    0.1090   0.1307      0.1090
+   1410   1408   40.7    0.1090   0.1363      0.1090
+   1411   1408   45.9    0.1504   0.1934      0.1504
+   1407   1406   48.8    0.1090   0.1607      0.1090
+   1419   1406   85.8    0.1522   0.2314      0.1522
+   1414   1411   42.4    0.1370   0.1516      0.1370
+   1415   1414   30.4    0.1080   0.1088      0.1080
+   1413   1412   37.6    0.1010   0.1129      0.1010
+   3675   3674   85.4    0.1340   0.1973      0.1340
+   3679   3678   87.9    0.1010   0.2407      0.1010
+   3680   3678   87.7    0.1010   0.2214      0.1010
+   3577   3576   42.3    0.1251   0.1291      0.1250
+   3578   3576   33.7    0.1251   0.1316      0.1250
+   3579   3571   30.3    0.1524   0.1525      0.1522
+   3627   3616   44.6    0.1522   0.1817      0.1522
+   3670   3669   46.9    0.1090   0.1589      0.1090
+   3671   3669   49.8    0.1090   0.1631      0.1090
+   3672   3669   40.1    0.1463   0.1206      0.1463
+   3676   3675   84.8    0.1010   0.1538      0.1010
+   3677   3675   32.2    0.1010   0.0838      0.1010
+   3673   3672   44.5    0.1010   0.1131      0.1010
+   3674   3672   86.2    0.1340   0.2553      0.1340
+   2930   2929   68.9    0.1229   0.1535      0.1229
+   2931   2929   72.6    0.1335   0.1651      0.1335
+   2929   2917   50.3    0.1522   0.1811      0.1522
+   3582   3581   43.9    0.1010   0.1262      0.1010
+   3581   3579   38.8    0.1336   0.1738      0.1335
+   3584   3583   51.2    0.1090   0.1595      0.1090
+   3585   3583   40.4    0.1529   0.2016      0.1529
+   3598   3583   86.4    0.1522   0.2459      0.1522
+   3601   3600   53.8    0.1010   0.1340      0.1010
+   3602   3600   51.8    0.1449   0.1831      0.1449
+   3603   3602   35.4    0.1090   0.1284      0.1090
+   3612   3602   39.6    0.1522   0.1889      0.1522
+   3613   3612   55.7    0.1229   0.1412      0.1229
+   3614   3612   53.3    0.1335   0.1436      0.1335
+   4292   4290   30.5    0.1090   0.1184      0.1090
+   4295   4294   44.0    0.1250   0.1455      0.1250
+   4296   4294   87.8    0.1250   0.1444      0.1250
+   3599   3598   87.7    0.1229   0.2493      0.1229
+   3600   3598   86.8    0.1335   0.2826      0.1335
+   2848   2847   30.1    0.1229   0.1243      0.1229
+    598    597   79.5    0.1229   0.1759      0.1229
+    597    599   86.0    0.1335   0.1909      0.1335
+    599    600   40.3    0.1010   0.1264      0.1010
+    597    585   62.0    0.1522   0.1920      0.1522
+    582    581   36.4    0.1229   0.1284      0.1229
+    583    581   50.5    0.1335   0.1619      0.1335
+    562    564   68.1    0.1335   0.1645      0.1335
+    551    562   54.6    0.1522   0.1778      0.1522
+    551    552   31.9    0.1090   0.1254      0.1090
+    562    563   66.3    0.1229   0.1514      0.1229
+    564    565   38.1    0.1010   0.1252      0.1010
+   2125   2122   38.5    0.1529   0.1563      0.1529
+   1283   1270   32.8    0.1522   0.1603      0.1522
+   1284   1283   38.1    0.1229   0.1297      0.1229
+   1285   1283   38.4    0.1335   0.1412      0.1335
+   2046   2034   36.1    0.1522   0.1659      0.1522
+   2047   2046   50.8    0.1229   0.1415      0.1229
+   2048   2046   55.4    0.1335   0.1497      0.1335
+   2049   2048   30.3    0.1010   0.1129      0.1010
+   2050   2048   34.2    0.1449   0.1736      0.1449
+   2051   2050   31.5    0.1090   0.1298      0.1090
+   2070   2050   58.5    0.1522   0.1998      0.1522
+   2071   2070   70.7    0.1229   0.1656      0.1229
+   2072   2070   70.5    0.1335   0.1756      0.1335
+   1267   1266   31.7    0.1229   0.1278      0.1229
+   1968   1960   48.8    0.1522   0.1583      0.1522
+   1971   1970   32.3    0.1010   0.1096      0.1010
+   1969   1968   47.7    0.1229   0.1489      0.1229
+   1970   1968   56.9    0.1335   0.1912      0.1335
+   2004   2003   46.6    0.1010   0.1361      0.1010
+   2005   2003   34.6    0.1449   0.1738      0.1449
+   2053   2052   34.9    0.1090   0.1200      0.1090
+   2061   2058   33.2    0.1463   0.1778      0.1463
+   1967   1965   30.8    0.1250   0.1231      0.1250
+   1959   1958   53.0    0.1010   0.1382      0.1010
+   1960   1958   44.0    0.1449   0.1879      0.1449
+   2065   2064   41.0    0.1010   0.1242      0.1010
+   2066   2064   40.4    0.1010   0.1239      0.1010
+   2062   2061   47.8    0.1010   0.1400      0.1010
+   2063   2061   85.3    0.1340   0.2149      0.1340
+   2064   2063   78.0    0.1340   0.2116      0.1340
+   2067   2063   75.7    0.1340   0.2071      0.1340
+   2068   2067   36.8    0.1010   0.1227      0.1010
+   2069   2067   39.4    0.1010   0.1171      0.1010
+   3142   3141   86.9    0.1010   0.1203      0.1010
+   3143   3141   86.8    0.1010   0.1274      0.1010
+   2987   2986   37.3    0.1086   0.1131      0.1090
+   2988   2986   31.7    0.1086   0.1134      0.1090
+   2989   2986   34.8    0.1091   0.1111      0.1090
+   3024   3023   42.9    0.1012   0.1283      0.1010
+   3027   3023   30.2    0.1345   0.1518      0.1343
+   3692   3691   39.5    0.1080   0.1156      0.1080
+   3695   3691   41.9    0.1400   0.1514      0.1400
+   3139   3138   58.8    0.1010   0.1394      0.1010
+   3140   3138   58.8    0.1010   0.1304      0.1010
+   3138   3137   88.3    0.1340   0.3284      0.1340
+   3141   3137   88.0    0.1340   0.3155      0.1340
+   3020   3019   36.9    0.1092   0.1094      0.1090
+   3030   3017   86.5    0.1524   0.2415      0.1522
+   3025   3022   87.4    0.1372   0.2095      0.1370
+   3026   3025   89.1    0.1082   0.2353      0.1080
+   3029   3025   71.0    0.1395   0.2290      0.1394
+   3691   3690   35.9    0.1400   0.1520      0.1400
+   3669   3666   33.4    0.1529   0.1912      0.1529
+   2943   2932   32.3    0.1522   0.1685      0.1522
+   2944   2943   37.5    0.1229   0.1284      0.1229
+   2945   2943   32.5    0.1335   0.1413      0.1335
+   2977   2976   33.2    0.1229   0.1245      0.1229
+   3641   3631   46.7    0.1522   0.1643      0.1522
+   3630   3629   32.0    0.1010   0.1138      0.1010
+   3642   3641   60.1    0.1229   0.1486      0.1229
+   3643   3641   58.9    0.1335   0.1660      0.1335
+   3628   3627   59.4    0.1229   0.1383      0.1229
+   3629   3627   66.5    0.1335   0.1644      0.1335
+   3658   3657   59.2    0.1229   0.1418      0.1229
+   3659   3657   46.9    0.1335   0.1487      0.1335
+   3661   3659   33.1    0.1449   0.1483      0.1449
+   3683   3681   34.7    0.1335   0.1330      0.1335
+   2896   2894   31.9    0.1335   0.1386      0.1335
+   3657   3645   32.3    0.1522   0.1607      0.1522
+   2161   2162   30.4    0.1449   0.1626      0.1449
+   2197   2196   41.4    0.1090   0.1417      0.1090
+   2198   2196   34.3    0.1529   0.1916      0.1529
+   2208   2196   76.9    0.1522   0.2147      0.1522
+   2195   2194   34.1    0.1010   0.1169      0.1010
+   2194   2192   48.6    0.1335   0.1639      0.1335
+   2173   2175   54.3    0.1335   0.1485      0.1335
+   2162   2173   42.3    0.1522   0.1685      0.1522
+   2162   2163   31.0    0.1090   0.1240      0.1090
+   1237   1236   63.1    0.1229   0.1500      0.1229
+   1238   1236   66.2    0.1335   0.1632      0.1335
+   1973   1972   47.3    0.1090   0.1496      0.1090
+   1974   1972   36.9    0.1529   0.1913      0.1529
+   1987   1972   72.3    0.1522   0.2236      0.1522
+   1988   1987   87.3    0.1229   0.2278      0.1229
+   1989   1987   85.9    0.1335   0.2540      0.1335
+   2126   2125   47.2    0.1090   0.1142      0.1090
+   2127   2125   46.6    0.1090   0.1140      0.1090
+   2129   2128   69.0    0.1010   0.1031      0.1010
+   2130   2128   63.1    0.1010   0.1017      0.1010
+   2131   2128   69.8    0.1010   0.1025      0.1010
+   1256   1255   43.1    0.1229   0.1353      0.1229
+   1257   1255   46.2    0.1335   0.1516      0.1335
+   1255   1240   31.8    0.1522   0.1561      0.1522
+   1940   1939   41.3    0.1229   0.1417      0.1229
+   1941   1939   40.8    0.1335   0.1325      0.1335
+   1990   1989   52.1    0.1010   0.1383      0.1010
+   1991   1989   60.9    0.1449   0.2251      0.1449
+   1992   1991   50.8    0.1090   0.1720      0.1090
+   2001   1991   71.6    0.1522   0.2362      0.1522
+   1994   1993   39.4    0.1090   0.1399      0.1090
+   1995   1993   33.6    0.1410   0.1687      0.1410
+   2002   2001   87.2    0.1229   0.2180      0.1229
+   2003   2001   86.3    0.1335   0.2275      0.1335
+   2676   2675   35.2    0.1090   0.1290      0.1090
+   2684   2683   51.3    0.1250   0.1469      0.1250
+   2685   2683   88.5    0.1250   0.2369      0.1250
+   2681   2679   31.5    0.1090   0.1222      0.1090
+   1943   1941   36.2    0.1449   0.1821      0.1449
+   1946   1945   31.6    0.1090   0.1323      0.1090
+   1947   1945   39.3    0.1090   0.1387      0.1090
+   1948   1945   40.4    0.1504   0.1882      0.1504
+   1944   1943   44.9    0.1090   0.1354      0.1090
+   1956   1943   86.9    0.1522   0.2840      0.1522
+   1957   1956   87.7    0.1229   0.2773      0.1229
+   1958   1956   87.1    0.1335   0.3247      0.1335
+   2612   2611   49.7    0.1090   0.1289      0.1090
+   2613   2611   35.1    0.1529   0.1744      0.1529
+   1951   1948   30.6    0.1370   0.1467      0.1370
+   2598   2595   40.2    0.1463   0.1807      0.1463
+   2599   2598   56.3    0.1010   0.1488      0.1010
+   2600   2598   87.3    0.1340   0.3034      0.1340
+   2602   2601   62.0    0.1010   0.1090      0.1010
+   2603   2601   62.0    0.1010   0.1062      0.1010
+   2601   2600   87.1    0.1340   0.2804      0.1340
+   2604   2600   87.6    0.1340   0.2970      0.1340
+   2605   2604   54.6    0.1010   0.1423      0.1010
+   2606   2604   53.3    0.1010   0.1409      0.1010
+   2483   2482   40.6    0.1090   0.1369      0.1090
+   2484   2482   45.1    0.1090   0.1417      0.1090
+   2485   2482   50.4    0.1504   0.2010      0.1504
+   2488   2485   46.4    0.1370   0.1545      0.1370
+   2489   2488   31.6    0.1080   0.1128      0.1080
+   3136   3135   58.3    0.1010   0.1396      0.1010
+   3137   3135   88.2    0.1340   0.3325      0.1340
+   3041   3039   33.3    0.1250   0.1218      0.1250
+   3037   3036   32.6    0.1090   0.1039      0.1090
+   3033   3032   50.9    0.1010   0.1474      0.1010
+   3034   3032   38.5    0.1450   0.1729      0.1449
+   3042   3034   78.3    0.1522   0.2057      0.1522
+   3045   3044   35.9    0.1010   0.1154      0.1010
+   3046   3044   39.7    0.1449   0.2104      0.1449
+   3043   3042   86.2    0.1229   0.2110      0.1229
+   3044   3042   84.9    0.1335   0.2443      0.1335
+   3078   3077   49.6    0.1010   0.1453      0.1010
+   3079   3077   35.9    0.1449   0.1715      0.1449
+   3135   3132   39.2    0.1463   0.1826      0.1463
+   2332   2331   32.8    0.1010   0.1110      0.1010
+   2330   2329   68.9    0.1229   0.1613      0.1229
+   2331   2329   73.4    0.1335   0.1706      0.1335
+   3000   2999   31.8    0.1010   0.1052      0.1010
+   3014   3013   65.7    0.1230   0.1383      0.1229
+   3015   3013   31.2    0.1336   0.1435      0.1335
+   3031   3030   88.1    0.1230   0.3007      0.1229
+   3032   3030   87.2    0.1336   0.3497      0.1335
+   3068   3067   43.5    0.1090   0.1471      0.1090
+   3069   3067   35.8    0.1410   0.1736      0.1410
+   3071   3067   32.1    0.1529   0.1839      0.1529
+   3704   3702   45.8    0.1335   0.1706      0.1335
+   3750   3749   31.9    0.1090   0.1227      0.1090
+   3748   3747   58.6    0.1090   0.1371      0.1090
+   3749   3747   52.2    0.1529   0.1764      0.1529
+   3757   3747   33.6    0.1522   0.1335      0.1522
+   3709   3708   32.9    0.1090   0.1062      0.1090
+   3705   3704   33.7    0.1010   0.1239      0.1010
+   3707   3706   43.1    0.1090   0.1157      0.1090
+   3721   3706   87.4    0.1522   0.3290      0.1522
+   3722   3721   88.5    0.1229   0.3437      0.1229
+   3723   3721   88.1    0.1335   0.4312      0.1335
+   3724   3723   87.8    0.1010   0.2137      0.1010
+   3725   3723   72.5    0.1449   0.2786      0.1449
+   3726   3725   67.5    0.1090   0.1674      0.1090
+   3727   3725   50.7    0.1529   0.1918      0.1529
+   3743   3725   65.2    0.1522   0.1351      0.1522
+   3746   3745   85.7    0.1010   0.1392      0.1010
+   3747   3745   42.8    0.1449   0.1809      0.1449
+   3728   3727   33.3    0.1090   0.1370      0.1090
+   3744   3743   85.0    0.1229   0.1677      0.1229
+   2209   2208   87.6    0.1229   0.2165      0.1229
+   2210   2208   86.7    0.1335   0.2379      0.1335
+   2257   2256   50.2    0.1229   0.1362      0.1229
+   2258   2256   51.7    0.1335   0.1464      0.1335
+  24746  24745   31.2    0.1435   0.1532      0.1435
+  24746  24747   34.3    0.1360   0.1443      0.1360
+  24747  24748   32.8    0.1230   0.1225      0.1230
+   2211   2210   43.9    0.1010   0.1277      0.1010
+   2212   2210   30.3    0.1449   0.1605      0.1449
+   2173   2174   56.1    0.1229   0.1394      0.1229
+   1221   1220   77.9    0.1229   0.1910      0.1229
+   1222   1220   86.9    0.1335   0.2089      0.1335
+   1223   1222   47.6    0.1010   0.1340      0.1010
+   1224   1222   35.5    0.1449   0.1798      0.1449
+   1236   1224   51.1    0.1522   0.1997      0.1522
+   1220   1200   61.5    0.1522   0.2134      0.1522
+   1182   1184   73.0    0.1335   0.1671      0.1335
+   1162   1182   55.1    0.1522   0.1820      0.1522
+   1184   1185   35.2    0.1010   0.1153      0.1010
+   1182   1183   67.8    0.1229   0.1553      0.1229
+   2634   2635   51.4    0.1090   0.1074      0.1090
+   2632   2630   58.7    0.1449   0.1817      0.1449
+   2633   2632   62.4    0.1090   0.1065      0.1090
+   2647   2632   86.6    0.1522   0.3387      0.1522
+   2629   2628   84.9    0.1229   0.1616      0.1229
+   2630   2628   66.7    0.1335   0.2083      0.1335
+   2648   2647   88.3    0.1229   0.3370      0.1229
+   2649   2647   88.0    0.1335   0.4644      0.1335
+   2650   2649   88.0    0.1010   0.2393      0.1010
+   2651   2649   86.0    0.1449   0.2751      0.1449
+   2651   2652   61.1    0.1090   0.1433      0.1090
+   2651   2653   38.7    0.1529   0.1675      0.1529
+   2653   2655   31.3    0.1090   0.1363      0.1090
+   2653   2656   31.5    0.1529   0.1877      0.1529
+   2669   2651   41.7    0.1522   0.1345      0.1522
+   2672   2671   86.1    0.1010   0.1579      0.1010
+   2673   2671   40.8    0.1449   0.1889      0.1449
+   2670   2669   84.5    0.1229   0.1468      0.1229
+   2674   2673   74.1    0.1090   0.1597      0.1090
+   2675   2673   62.9    0.1529   0.1948      0.1529
+   2683   2673   52.9    0.1522   0.1571      0.1522
+   1122   1134   36.3    0.1522   0.1590      0.1522
+   1134   1135   45.3    0.1229   0.1297      0.1229
+   1134   1136   42.5    0.1335   0.1406      0.1335
+   1884   1883   31.2    0.1229   0.1261      0.1229
+   1903   1902   41.7    0.1229   0.1282      0.1229
+   1904   1902   33.4    0.1335   0.1374      0.1335
+   2567   2557   51.2    0.1522   0.1739      0.1522
+   2568   2567   61.9    0.1229   0.1479      0.1229
+   2569   2567   57.5    0.1335   0.1645      0.1335
+   2570   2569   30.9    0.1010   0.1023      0.1010
+   2569   2571   30.6    0.1449   0.1755      0.1449
+   2571   2572   32.8    0.1090   0.1282      0.1090
+   2571   2583   39.5    0.1522   0.1798      0.1522
+   2583   2584   69.3    0.1229   0.1805      0.1229
+   2610   2609   57.2    0.1010   0.1701      0.1010
+   2611   2609   52.5    0.1449   0.2037      0.1449
+   2608   2607   88.1    0.1229   0.2488      0.1229
+   2609   2607   86.8    0.1335   0.2911      0.1335
+   2653   2654   38.5    0.1090   0.1451      0.1090
+   1805   1806   42.6    0.1010   0.1091      0.1010
+   1807   1805   34.4    0.1449   0.1603      0.1449
+   1856   1855   39.7    0.1229   0.1295      0.1229
+   1857   1855   45.0    0.1335   0.1426      0.1335
+   1855   1843   30.2    0.1522   0.1610      0.1522
+   2508   2507   41.5    0.1010   0.1175      0.1010
+   2507   2505   42.4    0.1335   0.1700      0.1335
+   2510   2509   49.6    0.1090   0.1545      0.1090
+   2509   2511   39.6    0.1529   0.1944      0.1529
+   2509   2524   70.8    0.1522   0.2255      0.1522
+   2524   2525   87.5    0.1229   0.2245      0.1229
+   2528   2538   61.2    0.1522   0.2271      0.1522
+   2528   2529   46.0    0.1090   0.1573      0.1090
+   2530   2531   34.5    0.1090   0.1325      0.1090
+   2539   2538   87.1    0.1229   0.1904      0.1229
+   2540   2538   86.1    0.1335   0.2025      0.1335
+   2583   2585   85.2    0.1335   0.1627      0.1335
+   2586   2585   44.4    0.1010   0.1330      0.1010
+   2587   2585   41.6    0.1449   0.1986      0.1449
+   2588   2587   46.1    0.1090   0.1548      0.1090
+   2607   2587   86.8    0.1522   0.2812      0.1522
+   2590   2589   33.4    0.1090   0.1353      0.1090
+   2591   2589   37.2    0.1090   0.1384      0.1090
+   2665   2666   31.9    0.1010   0.1014      0.1010
+   2665   2667   35.0    0.1010   0.1019      0.1010
+   2665   2668   36.3    0.1010   0.1019      0.1010
+   1804   1803   59.3    0.1229   0.1539      0.1229
+   1805   1803   66.7    0.1335   0.1662      0.1335
+   1803   1796   45.7    0.1522   0.1796      0.1522
+   1759   1761   35.5    0.1449   0.1495      0.1449
+   1773   1774   31.8    0.1229   0.1246      0.1229
+   2463   2462   31.0    0.1010   0.1078      0.1010
+   2464   2465   37.9    0.1090   0.1271      0.1090
+   2477   2476   70.1    0.1229   0.1647      0.1229
+   2478   2476   57.8    0.1335   0.1417      0.1335
+   2496   2495   45.2    0.1010   0.1195      0.1010
+   2497   2495   35.2    0.1449   0.1749      0.1449
+   2494   2493   87.3    0.1229   0.2513      0.1229
+   2495   2493   86.5    0.1335   0.2721      0.1335
+   2524   2526   86.0    0.1335   0.2417      0.1335
+   2527   2526   50.2    0.1010   0.1332      0.1010
+   2526   2528   57.0    0.1449   0.2080      0.1449
+   2541   2540   43.4    0.1010   0.1335      0.1010
+   2542   2540   33.4    0.1449   0.1701      0.1449
+   3210   3212   43.0    0.1529   0.1655      0.1529
+   3208   3210   38.6    0.1449   0.1768      0.1449
+   3188   3206   43.2    0.1522   0.1488      0.1522
+   3186   3188   53.6    0.1449   0.1750      0.1449
+   3188   3189   51.2    0.1090   0.1322      0.1090
+   3188   3190   37.6    0.1529   0.1692      0.1529
+   3206   3207   70.4    0.1229   0.1312      0.1229
+   3208   3209   85.9    0.1010   0.1137      0.1010
+   3210   3211   48.8    0.1090   0.1228      0.1090
+   3220   3221   40.5    0.1250   0.1460      0.1250
+   3220   3222   88.1    0.1250   0.1495      0.1250
+   1719   1721   31.3    0.1335   0.1346      0.1335
+   1719   1720   42.0    0.1229   0.1363      0.1229
+   1723   1724   34.8    0.1090   0.1352      0.1090
+   1723   1733   82.6    0.1522   0.2273      0.1522
+   1733   1734   88.0    0.1229   0.2354      0.1229
+   1733   1735   87.8    0.1335   0.2684      0.1335
+   1735   1736   53.9    0.1010   0.1471      0.1010
+   1735   1737   43.2    0.1449   0.1941      0.1449
+   1725   1727   30.0    0.1090   0.1270      0.1090
+   2420   2421   38.3    0.1229   0.1276      0.1229
+   2440   2439   34.2    0.1229   0.1239      0.1229
+   2480   2478   50.1    0.1449   0.2010      0.1449
+   2481   2480   53.0    0.1090   0.1705      0.1090
+   2493   2480   86.5    0.1522   0.2791      0.1522
+   3104   3094   32.1    0.1522   0.1579      0.1522
+   3148   3165   32.0    0.1522   0.1752      0.1522
+   3165   3166   35.3    0.1229   0.1365      0.1229
+   3165   3167   60.2    0.1335   0.1876      0.1335
+   3167   3168   46.2    0.1010   0.1325      0.1010
+   3167   3169   30.9    0.1449   0.1352      0.1449
+   3169   3170   42.0    0.1090   0.1078      0.1090
+   3171   3172   31.3    0.1090   0.1011      0.1090
+   3169   3184   87.7    0.1522   0.3144      0.1522
+   3184   3185   89.0    0.1229   0.3264      0.1229
+   3184   3186   88.7    0.1335   0.3757      0.1335
+   3147   3146   32.7    0.1010   0.1191      0.1010
+   3145   3144   71.2    0.1229   0.1648      0.1229
+   3146   3144   71.9    0.1335   0.1766      0.1335
+   3105   3104   38.4    0.1229   0.1297      0.1229
+   3106   3104   36.7    0.1335   0.1422      0.1335
+   3076   3075   87.3    0.1229   0.2368      0.1229
+   3077   3075   86.2    0.1335   0.2578      0.1335
+   3120   3121   42.8    0.1229   0.1338      0.1229
+   3122   3120   37.3    0.1335   0.1404      0.1335
+   3124   3122   32.2    0.1449   0.1681      0.1449
+   3144   3124   55.3    0.1522   0.1939      0.1522
+   3127   3126   45.8    0.1090   0.1192      0.1090
+   3196   3199   30.7    0.1529   0.1543      0.1529
+   3200   3199   39.0    0.1090   0.1106      0.1090
+   3201   3199   39.1    0.1090   0.1106      0.1090
+   2353   2352   61.8    0.1229   0.1421      0.1229
+   2354   2352   51.4    0.1335   0.1563      0.1335
+   2352   2349   35.3    0.1522   0.1759      0.1522
+   2346   2347   33.6    0.1090   0.1122      0.1090
+   2346   2348   40.9    0.1090   0.1110      0.1090
+   2349   2346   31.4    0.1529   0.1662      0.1529
+   2345   2344   89.1    0.1090   0.1749      0.1090
+   2357   2344   43.2    0.1522   0.1572      0.1522
+   2358   2357   38.0    0.1229   0.1358      0.1229
+   2359   2357   30.6    0.1335   0.1438      0.1335
+   3047   3046   32.6    0.1090   0.1301      0.1090
+   3061   3046   47.8    0.1522   0.1878      0.1522
+   3062   3061   81.3    0.1229   0.1951      0.1229
+   3063   3061   84.9    0.1335   0.2075      0.1335
+   3064   3063   48.7    0.1010   0.1367      0.1010
+   3065   3063   61.7    0.1449   0.2474      0.1449
+   3066   3065   55.8    0.1090   0.1928      0.1090
+   3075   3065   85.6    0.1522   0.2470      0.1522
+   3758   3757   34.2    0.1250   0.1390      0.1250
+   3759   3757   88.2    0.1250   0.2012      0.1250
+   3203   3202   50.1    0.1010   0.1005      0.1010
+   3204   3202   58.1    0.1010   0.1029      0.1010
+   3205   3202   60.6    0.1010   0.1029      0.1010
+   2294   2274   32.3    0.1522   0.1622      0.1522
+   2295   2294   50.1    0.1229   0.1319      0.1229
+   2296   2294   42.5    0.1335   0.1444      0.1335
+   2329   2314   50.2    0.1522   0.1833      0.1522
+   2286   2285   58.1    0.1010   0.1493      0.1010
+   2287   2285   87.7    0.1340   0.3234      0.1340
+   2285   2282   42.6    0.1463   0.1828      0.1463
+   2256   2236   37.2    0.1522   0.1639      0.1522
+   2292   2291   85.4    0.1010   0.1095      0.1010
+   2293   2291   76.6    0.1010   0.1118      0.1010
+   2289   2288   54.9    0.1010   0.1344      0.1010
+   2290   2288   53.3    0.1010   0.1332      0.1010
+   2288   2287   87.6    0.1340   0.3059      0.1340
+   2291   2287   87.1    0.1340   0.2962      0.1340
+   2220   2223   46.8    0.1463   0.1963      0.1463
+   2223   2224   62.0    0.1010   0.1585      0.1010
+   2223   2225   87.2    0.1340   0.3068      0.1340
+   2225   2226   86.8    0.1340   0.2626      0.1340
+   2226   2227   48.1    0.1010   0.1246      0.1010
+   2226   2228   47.2    0.1010   0.1172      0.1010
+   2225   2229   86.9    0.1340   0.2759      0.1340
+   2229   2230   53.0    0.1010   0.1312      0.1010
+   2229   2231   50.6    0.1010   0.1263      0.1010
+
+-------------------------------------------------------
+Program mdrun_mpi, VERSION 5.0.6
+Source code file: /cm/shared/apps/Gromacs-5.0.6/source/gromacs-5.0.6/src/gromacs/mdlib/constr.c, line: 224
+
+Fatal error:
+Too many LINCS warnings (1256)
+If you know what you are doing you can adjust the lincs warning threshold in your mdp file
+or set the environment variable GMX_MAXCONSTRWARN to -1,
+but normally it is better to fix the problem
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+Error on rank 9, will try to stop all ranks
+Halting parallel program mdrun_mpi on CPU 9 out of 20
+
+gcq#347: "If There Is No Guitar In The House, You Know It's Owner Can Not Be Trusted" (Gogol Bordello)
+
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 9

@@ -1,0 +1,33 @@
+;
+;	File 'EM_Cterm_115-143-Mem.top' was generated
+;	By user: onbekend (0)
+;	On host: onbekend
+;	At date: Tue Jan 27 09:21:26 2015
+;
+;	This is a standalone topology file
+;
+;	It was generated using program:
+;	pdb2gmx - VERSION 4.5.5
+;
+;	Command line was:
+;	pdb2gmx -f EM_Cterm_115-143-Mem.pdb -o EM_Cterm_115-143-Mem.gro -p EM_Cterm_115-143-Mem.top -water spc -ignh 
+;
+;	Force field was read from the standard Gromacs share directory.
+;
+
+; Include forcefield parameters
+#include "ffoplsaa_berger.itp"
+#include "popc_oplsaa_berger_fix.itp"
+#include "oplsaa.ff/spc.itp"
+#include "oplsaa.ff/ions.itp"
+
+[ system ]
+; Name
+POPC in water
+
+[ molecules ]
+; Compound        #mols
+POPC    512
+SOL         18753
+K                743
+CL               743

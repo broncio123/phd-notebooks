@@ -1,0 +1,20 @@
+;
+;	File 'topol.top' was generated
+;	By user: ba13026 (21456)
+;	On host: bluegem1
+;	At date: Wed Aug 29 09:35:46 2018
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	GROMACS:      gmx pdb2gmx, VERSION 5.0.6
+;	Executable:   /cm/shared/apps/Gromacs-5.0.6/install_gcc/bin/gmx_mpi
+;	Library dir:  /cm/shared/apps/Gromacs-5.0.6/install_gcc/share/gromacs/top
+;	Command line:
+;	  gmx_mpi pdb2gmx -f caped_refined1_0001_INPUT_0002_ignorechain.pdb -water none -ff oplsaa -o confout.gro -p topol.top -i posre.itp -his -ter
+;	Force field was read from the standard Gromacs share directory.
+;
+
+; Include forcefield parameters
+#include "oplsaa.ff/forcefield.itp"
+

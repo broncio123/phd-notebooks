@@ -1,0 +1,5 @@
+Remove waters within bilayer and protein-lipid interface
+Initial number of waters: 112134
+Number of waters within box boundaries: 30575
+Water surviving: 27.266484741470027 %
+

@@ -1,0 +1,13 @@
+#!/bin/bash -login
+#SBATCH -p cpu
+#SBATCH --exclusive
+#SBATCH -A S2.1
+#SBATCH -o output_md-job.log
+#SBATCH -e error_md.log
+
+
+# Load GROMACS module
+module load apps/gromacs-5.0.6
+
+mpirun -np 16 mdrun_mpi  -s mdf/em.tpr -deffnm mdf/confout_bil_test
+ 

@@ -1,0 +1,17 @@
+;
+;	File 'output/refined1_0001_INPUT_0002_ignorechain/complex/mdpf/membed.dat' was generated
+;	By user: ba13026 (21456)
+;	On host: bluegem1
+;	At date: Wed Aug 29 10:08:45 2018
+;
+nxy                      = 1000
+nz                       = 0
+xyinit                   = 0.1
+xyend                    = 1.0
+zinit                    = 1
+zend                     = 1
+rad                      = 0.2200000
+ndiff                    = 0
+maxwarn                  = 0
+pieces                   = 1
+asymmetry                = no

@@ -1,0 +1,11 @@
+SUMMARY OF WATER REMOVAL:
+FIRST PHASE: Trim box
+Initial number of waters: 171771
+Number of waters within box boundaries: 106983
+Percentage surviving: 62.28234102380495 %
+
+SECOND PHASE: Remove waters within bilayer and protein-lipid interface
+Initial number of waters: 106983
+Number of waters within box boundaries: 29442
+Water surviving(2): 27.52026022826056 %
+

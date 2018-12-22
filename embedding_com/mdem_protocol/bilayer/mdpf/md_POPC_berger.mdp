@@ -1,0 +1,41 @@
+constraints         =  all-bonds ; constraint all bonds using LINCS ; SETTLE for water
+integrator          =  md        ; leapfrog integrator
+dt                  =  0.002     ; in ps !  = 2 fs
+nsteps              =  25000000   ; total 50 ns 
+nstxout             =  500000     ; save coordinates every 100 ps
+nstvout             =  50000     ; save velocities every 100 ps
+nstenergy           =  1000      ; save energies every 2 ps
+nstxtcout           =  5000      ; save xtc trajectory every 10 ps
+nstlist             =  10        ; update the neighbor list every 10 fs
+ns_type             =  grid      ; It makes a grid in the box for neighbor list searching
+;
+; the following four parameters were taken from the original Berger parameterization
+; note that they are different from the Neale/Tieleman implementations of OPLS-BERGER
+;
+rlist               =  1.0       ; = rcoulomb with PME
+rcoulomb            =  1.0       ; real-space cutoff 
+rvdw                =  1.0       ; vdw cuoff
+DispCorr	    =  EnerPres	 ; account for LJ after rvdw
+;
+coulombtype         =  PME       ; Particle mesh Ewald for LR interactions
+fourierspacing      =  0.15      ; grid dimensions for FFT
+pme_order           =  4         ; interpolation order for FFT
+ewald_rtol          =  1e-5      ; relative accuracy of direct/reciprocal space
+optimize_fft        =  yes	 ; makes fft faster but requires small setup time
+Tcoupl              =  nose-hoover
+tau_t               =  0.4           0.4  0.4
+tc-grps             =  Protein_WTX_K POPC SOL_K_Cl
+ref_t               =  310           310  310
+Pcoupl              =  Parrinello-Rahman
+tau_p               =  2.0          2.0     2.0
+compressibility     =  4.5e-5       4.5e-5  4.5e-5
+ref_p               =  1.0          1.0     1.0
+pcoupltype          =  semiisotropic
+nstcomm             = 10
+nstcalcenergy       = 5
+comm_mode           = Linear
+comm_grps           = Protein_WTX_K POPC SOL_K_Cl        
+;
+gen_vel             =  no ; restarting from the em after pr (put yes if you re-initialise the velocities after EM after PR)
+gen_temp            =  310
+gen_seed            =  734623
