@@ -13,3 +13,5 @@ pip install -r requirements.txt
 * __Fourth__, launch the jupyter notebook using anaconda or from terminal. 
 
 * __Fifth__, execute JNBs sections as instructed within it.
+
+> For any issue with the download link, you can contact me [ba13026@my.bristol.ac.uk](ba13026@my.bristol.ac.uk)
