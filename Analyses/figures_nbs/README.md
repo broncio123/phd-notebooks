@@ -1,16 +1,15 @@
 INSTRUCTIONS TO RUN JUPYTER NOTEBOOKS (JNBs)
 
-FIRST, install requirements
+* __First__, install requirements
 
 ```python
 pip install -r requirements.txt
 ```
 
-SECOND, download all the files in this folder.
+* __Second__, download all the files in this folder.
 
-THIRD, download database from [here]( https://drive.google.com/uc?id=1Lj0d4nqqFEPbh9ls_Szj5KgeNssqZZIb&export=download ) into the previously downloaded folder.
+* __Third__, download the database `mutants_docked_geometry-interactions.db` from [here]( https://drive.google.com/uc?id=1Lj0d4nqqFEPbh9ls_Szj5KgeNssqZZIb&export=download ). Make sure the file is in the same folder.
 
+* __Fourth__, launch the jupyter notebook using anaconda or from terminal. 
 
-FOURTH, launch the jupyter notebook using anaconda or from terminal. 
-
-FIFHT, execute JNBs sections as instructed within it.
+* __Fifth__, execute JNBs sections as instructed within it.
