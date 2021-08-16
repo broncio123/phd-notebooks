@@ -1,0 +1,6 @@
+json
+subprocess
+matplotlib
+seaborn
+pandas
+sqlalchemy
