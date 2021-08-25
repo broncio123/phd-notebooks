@@ -5,3 +5,5 @@ Analyses/figures_nbs/mutants_docked_geometry-interactions.db
 *.db
 
 Analyses/figures_nbs/data/md_traj_analysis/
+
+Analyses/figures_nbs/.ipynb_checkpoints/
