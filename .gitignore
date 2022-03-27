@@ -11,3 +11,5 @@ Analyses/figures_nbs/data/hydrophobic_contacts_cWza-S355C.json
 Analyses/figures_nbs/data/hydrophobic_contacts_cWza-Y373C.json
 Analyses/figures_nbs/data/hydrophobic_contacts_cWza-S355C_refined.json
 Analyses/figures_nbs/data/hydrophobic_contacts_cWza-Y373C_refined.json
+Analyses/figures_nbs/data/md_100ns_protein_popc.pdb
+Analyses/figures_nbs/data/wzaD4-consensus-full.pdb
