@@ -148,8 +148,8 @@ def get_leading_hbonds_timeseries(hbonds_object, hbonds_leads):
         
         hydrogens_sel = donor_selection+' and ('+hydrogen_names+')'
         acceptors_sel =  acceptor_selection+' and ('+acceptor_names+')'
-        logging.info('Chosen DONORS %s', hydrogens_sel)
-        logging.info('Chosen ACCEPTORS %s', acceptors_sel)
+        logging.info('Selected DONORS: %s', hydrogens_sel)
+        logging.info('Selected ACCEPTORS: %s', acceptors_sel)
         
         hbonds.hydrogens_sel = hydrogens_sel
         hbonds.acceptors_sel = acceptors_sel
@@ -169,28 +169,51 @@ if __name__ == "__main__":
     import sys
     import pickle
     import coloredlogs, logging
+    import argparse
     import numpy as np
     from time import process_time
     import MDAnalysis as mda
     from MDAnalysis.analysis.hydrogenbonds.hbond_analysis import HydrogenBondAnalysis
-
-    # Configure logger
-    coloredlogs.install(level='INFO')
-    logging.basicConfig(level=logging.INFO)
-    logging.basicConfig(filename='HBA.log',
-                        filemode='w', 
-                        format='%(name)s - %(levelname)s - %(message)s')
     
-    # Input files
-    topology_filepath = sys.argv[1]
-    trajectory_filepath = sys.argv[2]
-    output_filename = sys.argv[3]
+    # Initilise argparser
+    parser = argparse.ArgumentParser(description='This is a demo.')
+    parser.add_argument("-p",
+                        "--topology",
+                        dest="topology_filepath",
+                        help="Set topology filepath")
+    parser.add_argument("-x",
+                        "--trajectory",
+                        dest="trajectory_filepath",
+                        help="Set trajectory filepath")
+    parser.add_argument("-o",
+                        "--output",
+                        dest="output_filename",
+                        help="Set H-bond analysis output filename")
+    parser.add_argument("-v",
+                        "--verbose",
+                        help="Increase output verbosity",
+                        action="store_true")
+    
+    # Input/Output files
+    args = parser.parse_args()
+    
+    topology_filepath = args.topology_filepath
+    trajectory_filepath = args.trajectory_filepath
+    output_filename = args.output_filename
+    
+    # Configure logger
+    workdir = os.path.dirname(trajectory_filepath)
+    if args.verbose:
+        coloredlogs.install(level='DEBUG')
+        logging.basicConfig(level=logging.DEBUG)
+        logging.basicConfig(filename=os.path.join(workdir,'HBA.log'),
+                            filemode='w', 
+                            format='%(name)s - %(levelname)s - %(message)s')
 
     # Load trajectory file along with topology
     tic = process_time() 
     u = mda.Universe(topology_filepath, trajectory_filepath, in_memory=True)
     toc = process_time()
-    workdir = os.path.dirname(trajectory_filepath)
     logging.info('Loaded your trajectory and topology.')
     logging.info('Elapsed time (secs): %s', (toc-tic))
 
